@@ -1,706 +1,2011 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" class="wf-montserrat-n7-active wf-opensans-n3-active wf-opensans-n4-active wf-montserrat-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n8-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i7-active wf-active js_active  vc_desktop  vc_transform  vc_transform  vc_transform " lang="en-US"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>AirTracker - solar powered an environmental sensor array with build-in Sigfox interface</title>
-<!-- Mobile Specific Metas & Favicons -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><link rel="shortcut icon" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/favicon.ico"><!-- WordPress Stuff -->
-                        <script async="" src="./files/analytics.js"></script><script src="./files/webfont.js" type="text/javascript" async=""></script><script>
-                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
-                            if ( typeof WebFontConfig === "undefined" ) {
-                                WebFontConfig = new Object();
-                            }
-                            WebFontConfig['google'] = {families: ['Montserrat:400,700', 'Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic&amp;subset=latin']};
+<html prefix="og: http://ogp.me/ns#" class="wf-montserrat-n7-active wf-opensans-n3-active wf-opensans-n4-active wf-montserrat-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n8-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i7-active wf-active js_active  vc_desktop  vc_transform  vc_transform  vc_transform "
+ lang="en-US">
 
-                            (function() {
-                                var wf = document.createElement( 'script' );
-                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
-                                wf.type = 'text/javascript';
-                                wf.async = 'true';
-                                var s = document.getElementsByTagName( 'script' )[0];
-                                s.parentNode.insertBefore( wf, s );
-                            })();
-                        </script>
-                        
-<!-- This site is optimized with the Yoast SEO plugin v6.3.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
-<link rel="canonical" href="http://www.airtracker.com/">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AirTracker - solar powered an environmental sensor array with build-in Sigfox interface">
-<meta property="og:description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
-<meta property="og:url" content="http://www.airtracker.com/">
-<meta property="og:site_name" content="AirTracker">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
-<meta name="twitter:title" content="AirTracker - solar powered an environmental sensor array with build-in Sigfox interface">
-<meta name="twitter:site" content="@airtracker">
-<meta name="twitter:creator" content="@airtracker">
-<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.airtracker.com\/","name":"AirTracker","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.airtracker.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
-<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.airtracker.com\/","sameAs":["https:\/\/www.linkedin.com\/company-beta\/6471415\/","https:\/\/www.youtube.com\/channel\/UCw-3YQ7-bbbZnhs0VpMRoTw","https:\/\/twitter.com\/airtracker"],"@id":"#organization","name":"AirTracker","logo":"http:\/\/www.airtracker.com\/wp\/wp-content\/uploads\/2016\/10\/ipo-closes.jpg"}</script>
-<!-- / Yoast SEO plugin. -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>AirTracker - solar powered an environmental sensor array with build-in Sigfox interface</title>
+	<!-- Mobile Specific Metas & Favicons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="shortcut icon" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/favicon.ico">
+	<!-- WordPress Stuff -->
+	<script async="" src="./files/analytics.js"></script>
+	<script src="./files/webfont.js" type="text/javascript" async=""></script>
+	<script>
+		/* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+		if (typeof WebFontConfig === "undefined") {
+			WebFontConfig = new Object();
+		}
+		WebFontConfig['google'] = { families: ['Montserrat:400,700', 'Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic&amp;subset=latin'] };
 
-<link rel="dns-prefetch" href="http://assets.juicer.io/">
-<link rel="dns-prefetch" href="http://s.w.org/">
-<link rel="alternate" type="application/rss+xml" title="AirTracker » Feed" href="http://www.airtracker.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="AirTracker » Comments Feed" href="http://www.airtracker.com/comments/feed/">
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp\/wp-includes\/js\/wp-emoji-release.min.js"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script><script src="./files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v6.3.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
+	<link rel="canonical" href="http://www.airtracker.com/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="AirTracker - solar powered an environmental sensor array with build-in Sigfox interface">
+	<meta property="og:description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
+	<meta property="og:url" content="http://www.airtracker.com/">
+	<meta property="og:site_name" content="AirTracker">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:description" content="Learn more about AirTracker solar powered an environmental sensor array with build-in Sigfox interface.">
+	<meta name="twitter:title" content="AirTracker - solar powered an environmental sensor array with build-in Sigfox interface">
+	<meta name="twitter:site" content="@airtracker">
+	<meta name="twitter:creator" content="@airtracker">
+	<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.airtracker.com\/","name":"AirTracker","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.airtracker.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+	<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.airtracker.com\/","sameAs":["https:\/\/www.linkedin.com\/company-beta\/6471415\/","https:\/\/www.youtube.com\/channel\/UCw-3YQ7-bbbZnhs0VpMRoTw","https:\/\/twitter.com\/airtracker"],"@id":"#organization","name":"AirTracker","logo":"http:\/\/www.airtracker.com\/wp\/wp-content\/uploads\/2016\/10\/ipo-closes.jpg"}</script>
+	<!-- / Yoast SEO plugin. -->
+
+	<link rel="dns-prefetch" href="http://assets.juicer.io/">
+	<link rel="dns-prefetch" href="http://s.w.org/">
+	<link rel="alternate" type="application/rss+xml" title="AirTracker » Feed" href="http://www.airtracker.com/feed/">
+	<link rel="alternate" type="application/rss+xml" title="AirTracker » Comments Feed" href="http://www.airtracker.com/comments/feed/">
+	<script type="text/javascript">
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/", "svgExt": ".svg", "source": { "concatemoji": ".\/wp\/wp-includes\/js\/wp-emoji-release.min.js" } };
+		!function (a, b, c) { function d(a, b) { var c = String.fromCharCode; l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0); var d = k.toDataURL(); l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0); var e = k.toDataURL(); return d === e } function e(a) { var b; if (!l || !l.fillText) return !1; switch (l.textBaseline = "top", l.font = "600 32px Arial", a) { case "flag": return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b); case "emoji": return b = d([55357, 56692, 8205, 9792, 65039], [55357, 56692, 8203, 9792, 65039]), !b }return !1 } function f(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d"); for (j = Array("flag", "emoji"), c.supports = { everything: !0, everythingExceptFlag: !0 }, i = 0; i < j.length; i++)c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (h = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji))) }(window, document, window._wpemojiSettings);
+	</script>
+	<script src="./files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="timeline-css-css" href="./files/timeline.css" type="text/css" media="all">
+	<link rel="stylesheet" id="customScroll-css-css" href="./files/jquery.css" type="text/css" media="all">
+	<link rel="stylesheet" id="prettyPhoto-css-css" href="./files/prettyPhoto.css" type="text/css" media="all">
+	<link rel="stylesheet" id="my_timeline_font_awesome-css" href="./files/font-awesome_002.css" type="text/css" media="all">
+	<link rel="stylesheet" id="my_timeline_lineicons_css-css" href="./files/themify-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" id="juicerstyle-css" href="./files/embed.css" type="text/css" media="all">
+	<link rel="stylesheet" id="contact-form-7-css" href="./files/styles.css" type="text/css" media="all">
+	<link rel="stylesheet" id="font-awesome-css" href="./files/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="stylesheet-css" href="./files/style_002.css" type="text/css" media="all">
+	<link rel="stylesheet" id="js_composer_front-css" href="./files/js_composer.css" type="text/css" media="all">
+	<link rel="stylesheet" id="shortcodes-css" href="./files/shortcodes.css" type="text/css" media="all">
+	<link rel="stylesheet" id="responsive-css" href="./files/responsive.css" type="text/css" media="all">
+	<link rel="stylesheet" id="newsletter-subscription-css" href="./files/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./files/css.css">
+	<script type="text/javascript" src="./files/jquery_003.js"></script>
+	<script type="text/javascript" src="./files/jquery-migrate.js"></script>
+	<script type="text/javascript" src="./files/jquery_005.js"></script>
+	<script type="text/javascript" src="./files/jquery_008.js"></script>
+	<script type="text/javascript" src="./files/jquery.js"></script>
+	<script type="text/javascript" src="./files/jquery_006.js"></script>
+	<script type="text/javascript" src="./files/jquery_007.js"></script>
+	<script type="text/javascript" src="./files/rollover.js"></script>
+	<script type="text/javascript" src="./files/jquery_002.js"></script>
+	<script type="text/javascript" src="./files/jquery_004.js"></script>
+	<script type="text/javascript" src="./files/embed-no-jquery.js"></script>
+	<script type="text/javascript" src="./files/highstock.js"></script>
+	<script type="text/javascript" src="./files/exporting.js"></script>
+	<link rel="https://api.w.org/" href="http://www.airtracker.com/wp-json/">
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.airtracker.com/wp/xmlrpc.php?rsd">
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.airtracker.com/wp/wp-includes/wlwmanifest.xml">
+	<meta name="generator" content="WordPress 4.9.4">
+	<link rel="shortlink" href="http://www.airtracker.com/">
+	<link rel="alternate" type="application/json+oembed" href="http://www.airtracker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.airtracker.com%2F">
+	<link rel="alternate" type="text/xml+oembed" href="http://www.airtracker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.airtracker.com%2F&amp;format=xml">
+	<script type="text/javascript">
+		my_timeline_front_ajax_nonce = "abd6c2fc2d";
+		my_timeline_front_ajax_url = "http://www.airtracker.com/wp/wp-admin/admin-ajax.php";
+	</script>
+	<link href="./files/css_002.css" rel="stylesheet" type="text/css">
+	<style>
+		.scroll-back-to-top-wrapper {
+			position: fixed;
+			opacity: 0;
+			visibility: hidden;
+			overflow: hidden;
+			text-align: center;
+			z-index: 99999999;
+			background-color: #777777;
+			color: #eeeeee;
+			width: 50px;
+			height: 48px;
+			line-height: 48px;
+			right: 30px;
+			bottom: 30px;
+			padding-top: 2px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-ms-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+
+		.scroll-back-to-top-wrapper:hover {
+			background-color: #888888;
+			color: #eeeeee;
+		}
+
+		.scroll-back-to-top-wrapper.show {
+			visibility: visible;
+			cursor: pointer;
+			opacity: 1.0;
+		}
+
+		.scroll-back-to-top-wrapper i.fa {
+			line-height: inherit;
+		}
+
+		.scroll-back-to-top-wrapper .fa-lg {
+			vertical-align: 0;
+		}
+	</style>
+	<style type="text/css">
+		body {
+			font: 400 13px Open Sans, Arial, Helvetica, sans-serif;
+			color: #777777;
+			line-height: 1.9;
+		}
+
+		.wrapall,
+		.boxed-layout {
+			background-color: #ffffff;
+		}
+
+		body.page-template-page-blank-php {
+			background: #ffffff !important;
+		}
+
+		h1,
+		.title-h1 {
+			font: 28px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		h2 {
+			font: 24px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		h3 {
+			font: 20px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		h4 {
+			font: 16px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		h5 {
+			font: 16px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		h6 {
+			font: 16px Open Sans, Arial, Helvetica, sans-serif;
+			color: #333333;
+		}
+
+		.title {
+			font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		}
+
+		h1 a,
+		h2 a,
+		h3 a,
+		h4 a,
+		h5 a,
+		h6 a {
+			font-weight: inherit;
+			color: inherit;
+		}
+
+		h1 a:hover,
+		h2 a:hover,
+		h3 a:hover,
+		h4 a:hover,
+		h5 a:hover,
+		h6 a:hover,
+		a:hover h1,
+		a:hover h2,
+		a:hover h3,
+		a:hover h4,
+		a:hover h5,
+		a:hover h6 {
+			color: #333333;
+		}
+
+		a {
+			color: #48abde;
+		}
+
+		a:hover {
+			color: #333333;
+		}
+
+		input[type='text'],
+		input[type='password'],
+		input[type='email'],
+		input[type='tel'],
+		textarea,
+		select {
+			font-family: Open Sans, Arial, Helvetica, sans-serif;
+			font-size: 13px;
+		}
+
+		#sidebar .widget h3 {
+			font: 14px Montserrat, Arial, Helvetica, sans-serif;
+			color: #444444;
+		}
+
+		.container .twelve.alt.sidebar-right,
+		.container .twelve.alt.sidebar-left,
+		#sidebar.sidebar-right #sidebar-widgets,
+		#sidebar.sidebar-left #sidebar-widgets {
+			border-color: #efefef;
+		}
+
+		#topbar {
+			background: #f5f5f5;
+			color: #777777;
+		}
+
+		#topbar a {
+			color: #999999;
+		}
+
+		#topbar a:hover {
+			color: #333333;
+		}
+
+		@media only screen and (max-width: 767px) {
+			#topbar .topbar-col1 {
+				background: #f5f5f5;
+			}
+		}
+
+		/* Navigation */
+
+		#navigation>ul>li>a {
+			font: 13px Montserrat, Arial, Helvetica, sans-serif;
+			color: #777777;
+		}
+
+		#navigation>ul>li:hover>a,
+		#navigation>ul>li>a:hover {
+			color: #48abde;
+		}
+
+		#navigation li.current-menu-item>a:hover,
+		#navigation li.current-page-ancestor>a:hover,
+		#navigation li.current-menu-ancestor>a:hover,
+		#navigation li.current-menu-parent>a:hover,
+		#navigation li.current_page_ancestor>a:hover,
+		#navigation>ul>li.sfHover>a {
+			color: #48abde;
+		}
+
+		#navigation li.current-menu-item>a,
+		#navigation li.current-page-ancestor>a,
+		#navigation li.current-menu-ancestor>a,
+		#navigation li.current-menu-parent>a,
+		#navigation li.current_page_ancestor>a {
+			color: #48abde;
+		}
+
+		#navigation ul li:hover {
+			border-color: #48abde;
+		}
+
+		#navigation li.current-menu-item,
+		#navigation li.current-page-ancestor,
+		#navigation li.current-menu-ancestor,
+		#navigation li.current-menu-parent,
+		#navigation li.current_page_ancestor {
+			border-color: #48abde;
+		}
+
+		#navigation .sub-menu {
+			background: #262626;
+		}
+
+		#navigation .sub-menu li a {
+			font: 13px Open Sans, Arial, Helvetica, sans-serif;
+			color: #bbbbbb;
+		}
+
+		#navigation .sub-menu li a:hover {
+			color: #ffffff;
+		}
+
+		#navigation .sub-menu li.current_page_item>a,
+		#navigation .sub-menu li.current_page_item>a:hover,
+		#navigation .sub-menu li.current-menu-item>a,
+		#navigation .sub-menu li.current-menu-item>a:hover,
+		#navigation .sub-menu li.current-page-ancestor>a,
+		#navigation .sub-menu li.current-page-ancestor>a:hover,
+		#navigation .sub-menu li.current-menu-ancestor>a,
+		#navigation .sub-menu li.current-menu-ancestor>a:hover,
+		#navigation .sub-menu li.current-menu-parent>a,
+		#navigation .sub-menu li.current-menu-parent>a:hover,
+		#navigation .sub-menu li.current_page_ancestor>a,
+		#navigation .sub-menu li.current_page_ancestor>a:hover {
+			color: #ffffff;
+		}
+
+		#navigation .sub-menu li a,
+		#navigation .sub-menu ul li a {
+			border-color: #333333;
+		}
+
+		#navigation>ul>li.megamenu>ul.sub-menu {
+			background: #262626;
+			border-color: #48abde;
+		}
+
+		#navigation>ul>li.megamenu>ul>li {
+			border-right-color: #333333 !important;
+		}
+
+		#navigation>ul>li.megamenu ul li a {
+			color: #bbbbbb;
+		}
+
+		#navigation>ul>li.megamenu>ul>li>a {
+			color: #ffffff;
+		}
+
+		#navigation>ul>li.megamenu>ul ul li a:hover,
+		#header #navigation>ul>li.megamenu>ul ul li.current-menu-item a {
+			color: #ffffff !important;
+			background-color: #333333 !important;
+		}
+
+		/* Header General */
+
+		#search-btn,
+		#shopping-btn,
+		#close-search-btn {
+			color: #bbbbbb;
+		}
+
+		#search-btn:hover,
+		#shopping-btn:hover,
+		#close-search-btn:hover {
+			color: #999999;
+		}
+
+		#slogan {
+			font: 400 20px Open Sans, Arial, Helvetica, sans-serif;
+			color: #777777;
+			margin-top: 26px;
+		}
+
+		/* Mobile Header */
+
+		#mobile-navigation {
+			background: #262626;
+		}
+
+		#mobile-navigation ul li a {
+			font: 13px Open Sans, Arial, Helvetica, sans-serif;
+			color: #bbbbbb;
+			border-bottom-color: #333333 !important;
+		}
+
+		#mobile-navigation ul li a:hover,
+		#mobile-navigation ul li a:hover [class^='fa-'],
+		#mobile-navigation li.open>a,
+		#mobile-navigation ul li.current-menu-item>a,
+		#mobile-navigation ul li.current-menu-ancestor>a {
+			color: #ffffff;
+		}
+
+		body #mobile-navigation li.open>a [class^='fa-'] {
+			color: #ffffff;
+		}
+
+		#mobile-navigation form,
+		#mobile-navigation form input {
+			background: #444444;
+			color: #cccccc;
+		}
+
+		#mobile-navigation form:before {
+			color: #cccccc;
+		}
+
+		#mobile-header {
+			background: #ffffff;
+			height: 90px;
+		}
+
+		#mobile-navigation-btn,
+		#mobile-cart-btn,
+		#mobile-shopping-btn {
+			color: #bbbbbb;
+			line-height: 90px;
+		}
+
+		#mobile-navigation-btn:hover,
+		#mobile-cart-btn:hover,
+		#mobile-shopping-btn:hover {
+			color: #999999;
+		}
+
+		#mobile-header .logo {
+			margin-top: 24px;
+		}
+
+		/* Header V1 */
+
+		#header.header-v1 {
+			height: 90px;
+			background: #ffffff;
+		}
+
+		.header-v1 .logo {
+			margin-top: 24px;
+		}
+
+		.header-v1 #navigation>ul>li {
+			height: 90px;
+			padding-top: 35px;
+		}
+
+		.header-v1 #navigation .sub-menu {
+			top: 90px;
+		}
+
+		.header-v1 .header-icons-divider {
+			line-height: 90px;
+			background: #efefef;
+		}
+
+		#header.header-v1 .widget_shopping_cart {
+			top: 90px;
+		}
+
+		.header-v1 #search-btn,
+		.header-v1 #close-search-btn,
+		.header-v1 #shopping-btn {
+			line-height: 90px;
+		}
+
+		.header-v1 #search-top,
+		.header-v1 #search-top input {
+			height: 90px;
+		}
+
+		.header-v1 #search-top input {
+			color: #666666;
+			font-family: Open Sans, Arial, Helvetica, sans-serif;
+		}
+
+		/* Header V3 */
+
+		#header.header-v3 {
+			background: #ffffff;
+		}
+
+		.header-v3 .navigation-wrap {
+			background: #ffffff;
+			border-top: 1px solid #efefef;
+		}
+
+		.header-v3 .logo {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		/* Header V4 */
+
+		#header.header-v4 {
+			background: #ffffff;
+		}
+
+		.header-v4 .navigation-wrap {
+			background: #ffffff;
+			border-top: 1px solid #efefef;
+		}
+
+		.header-v4 .logo {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		/* Transparent Header */
+
+		#transparentimage {
+			padding: 90px 0 0 0;
+		}
+
+		.header-is-transparent #mobile-navigation {
+			top: 90px;
+		}
+
+		/* Stuck */
+
+		.stuck {
+			background: #ffffff;
+		}
+
+		/* Titlebars */
+
+		.titlebar h1,
+		.title-h1 {
+			font: 22px Open Sans, Arial, Helvetica, sans-serif;
+			color: #777777;
+		}
+
+		#fulltitle {
+			background: #f9f9f9;
+			border-bottom: 1px solid #efefef;
+		}
+
+		#breadcrumbs {
+			margin-top: 6px;
+		}
+
+		#breadcrumbs,
+		#breadcrumbs a {
+			font: 13px Open Sans, Arial, Helvetica, sans-serif;
+			color: #aaaaaa;
+		}
+
+		#breadcrumbs a:hover {
+			color: #666666;
+		}
+
+		#fullimagecenter h1,
+		#transparentimage h1,
+		#fullimagecenter .title-h1,
+		#transparentimage .title-h1 {
+			font: 42px Montserrat, Arial, Helvetica, sans-serif;
+			color: #ffffff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			text-align: center;
+		}
+
+		/* Footer */
+
+		#footer .widget h3 {
+			font: 13px Montserrat, Arial, Helvetica, sans-serif;
+			color: #ffffff;
+		}
+
+		#footer {
+			color: #888888;
+			border-top: 4px none #1cbac8;
+		}
+
+		#footer {
+			background-color: #262626;
+		}
+
+		#footer a,
+		#footer .widget ul li:after {
+			color: #888888;
+		}
+
+		#footer a:hover,
+		#footer .widget ul li:hover:after {
+			color: #ffffff;
+		}
+
+		#footer .widget ul li {
+			border-bottom-color: #333333;
+		}
+
+		/* Copyright */
+
+		#copyright {
+			background: #1b1b1b;
+			color: #777777;
+		}
+
+		#copyright a {
+			color: #999999;
+		}
+
+		#copyright a:hover {
+			color: #cccccc;
+		}
+
+		/* Color Accent */
+
+		.highlight {
+			color: #48abde !important;
+		}
+
+		::selection {
+			background: #48abde;
+		}
+
+		::-moz-selection {
+			background: #48abde;
+		}
+
+		#shopping-btn span {
+			background: #48abde;
+		}
+
+		.blog-page .post h1 a:hover,
+		.blog-page .post h2 a:hover {
+			color: #48abde;
+		}
+
+		.entry-image .entry-overlay {
+			background: #48abde;
+		}
+
+		.entry-quote a:hover {
+			background: #48abde;
+		}
+
+		.entry-link a:hover {
+			background: #48abde;
+		}
+
+		.blog-single .entry-tags a:hover {
+			color: #48abde;
+		}
+
+		.sharebox ul li a:hover {
+			color: #48abde;
+		}
+
+		#pagination .current a {
+			background: #48abde;
+		}
+
+		#filters ul li a:hover {
+			color: #48abde;
+		}
+
+		#filters ul li a.active {
+			color: #48abde;
+		}
+
+		#back-to-top a:hover {
+			background-color: #48abde;
+		}
+
+		#sidebar .widget ul li a:hover {
+			color: #48abde;
+		}
+
+		#sidebar .widget ul li:hover:after {
+			color: #48abde;
+		}
+
+		.widget_tag_cloud a:hover,
+		.widget_product_tag_cloud a:hover {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		.widget_portfolio .portfolio-widget-item .portfolio-overlay {
+			background: #48abde;
+		}
+
+		#sidebar .widget_nav_menu ul li a:hover {
+			color: #48abde;
+		}
+
+		#footer .widget_tag_cloud a:hover,
+		#footer .widget_product_tag_cloud a:hover {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		/* Shortcodes */
+
+		.box.style-2 {
+			border-top-color: #48abde;
+		}
+
+		.box.style-4 {
+			border-color: #48abde;
+		}
+
+		.box.style-6 {
+			background: #48abde;
+		}
+
+		a.button,
+		input[type=submit],
+		button,
+		.minti_button {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		a.button.color-2 {
+			color: #48abde;
+			border-color: #48abde;
+		}
+
+		a.button.color-3 {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		a.button.color-9 {
+			color: #48abde;
+		}
+
+		a.button.color-6:hover {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		a.button.color-7:hover {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		.counter-number {
+			color: #48abde;
+		}
+
+		.divider-title.align-center:after,
+		.divider-title.align-left:after {
+			background-color: #48abde
+		}
+
+		.divider5 {
+			border-bottom-color: #48abde;
+		}
+
+		.dropcap.dropcap-circle {
+			background-color: #48abde;
+		}
+
+		.dropcap.dropcap-box {
+			background-color: #48abde;
+		}
+
+		.dropcap.dropcap-color {
+			color: #48abde;
+		}
+
+		.toggle .toggle-title.active,
+		.color-light .toggle .toggle-title.active {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		.iconbox-style-1.icon-color-accent i.boxicon,
+		.iconbox-style-2.icon-color-accent i.boxicon,
+		.iconbox-style-3.icon-color-accent i.boxicon,
+		.iconbox-style-8.icon-color-accent i.boxicon,
+		.iconbox-style-9.icon-color-accent i.boxicon {
+			color: #48abde!important;
+		}
+
+		.iconbox-style-4.icon-color-accent i.boxicon,
+		.iconbox-style-5.icon-color-accent i.boxicon,
+		.iconbox-style-6.icon-color-accent i.boxicon,
+		.iconbox-style-7.icon-color-accent i.boxicon,
+		.flip .icon-color-accent.card .back {
+			background: #48abde;
+		}
+
+		.latest-blog .blog-item .blog-overlay {
+			background: #48abde;
+		}
+
+		.latest-blog .blog-item .blog-pic i {
+			color: #48abde;
+		}
+
+		.latest-blog .blog-item h4 a:hover {
+			color: #48abde;
+		}
+
+		.progressbar .progress-percentage {
+			background: #48abde;
+		}
+
+		.wpb_widgetised_column .widget ul li a:hover {
+			color: #48abde;
+		}
+
+		.wpb_widgetised_column .widget ul li:hover:after {
+			color: #48abde;
+		}
+
+		.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+			background-color: #48abde;
+		}
+
+		.wpb_accordion .wpb_accordion_wrapper .ui-state-active.wpb_accordion_header a {
+			color: #48abde;
+		}
+
+		.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover,
+		.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover .ui-state-default .ui-icon {
+			color: #48abde;
+		}
+
+		.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header:hover .ui-icon {
+			background-color: #48abde!important;
+		}
+
+		.wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active {
+			border-bottom-color: #48abde;
+		}
+
+		.portfolio-item h4 a:hover {
+			color: #48abde;
+		}
+
+		.portfolio-filters ul li a:hover {
+			color: #48abde;
+		}
+
+		.portfolio-filters ul li a.active {
+			color: #48abde;
+		}
+
+		.portfolio-overlay-icon .portfolio-overlay {
+			background: #48abde;
+		}
+
+		.portfolio-overlay-icon i {
+			color: #48abde;
+		}
+
+		.portfolio-overlay-effect .portfolio-overlay {
+			background: #48abde;
+		}
+
+		.portfolio-overlay-name .portfolio-overlay {
+			background: #48abde;
+		}
+
+		.portfolio-detail-attributes ul li a:hover {
+			color: #48abde;
+		}
+
+		a.catimage:hover .catimage-text {
+			background: #48abde;
+		}
+
+		/* WooCommerce */
+
+		.products li h3 {
+			font: 400 13px Open Sans, Arial, Helvetica, sans-serif;
+			color: #777777;
+		}
+
+		.woocommerce .button.checkout-button {
+			background: #48abde;
+			border-color: #48abde;
+		}
+
+		.woocommerce .products .onsale {
+			background: #48abde;
+		}
+
+		.product .onsale {
+			background: #48abde;
+		}
+
+		button.single_add_to_cart_button:hover {
+			background: #48abde;
+		}
+
+		.woocommerce-tabs>ul>li.active a {
+			color: #48abde;
+			border-bottom-color: #48abde;
+		}
+
+		p.stars a:hover {
+			background: #48abde;
+		}
+
+		p.stars a.active,
+		p.stars a.active:after {
+			background: #48abde;
+		}
+
+		.product_list_widget a {
+			color: #48abde;
+		}
+
+		.woocommerce .widget_layered_nav li.chosen a {
+			color: #48abde!important;
+		}
+
+		.woocommerce .widget_product_categories>ul>li.current-cat>a {
+			color: #48abde!important;
+		}
+
+		.woocommerce .widget_product_categories>ul>li.current-cat:after {
+			color: #48abde!important;
+		}
+
+		.woocommerce-message {
+			background: #48abde;
+		}
+
+		.bbp-topics-front ul.super-sticky .bbp-topic-title:before,
+		.bbp-topics ul.super-sticky .bbp-topic-title:before,
+		.bbp-topics ul.sticky .bbp-topic-title:before,
+		.bbp-forum-content ul.sticky .bbp-topic-title:before {
+			color: #48abde!important;
+		}
+
+		#subscription-toggle a:hover {
+			background: #48abde;
+		}
+
+		.bbp-pagination-links span.current {
+			background: #48abde;
+		}
+
+		div.wpcf7-mail-sent-ok,
+		div.wpcf7-mail-sent-ng,
+		div.wpcf7-spam-blocked,
+		div.wpcf7-validation-errors {
+			background: #48abde;
+		}
+
+		.wpcf7-not-valid {
+			border-color: #48abde !important;
+		}
+
+		.products .button.add_to_cart_button {
+			color: #48abde!important;
+		}
+
+		.minti_list.color-accent li:before {
+			color: #48abde!important;
+		}
+
+		.blogslider_text .post-categories li a {
+			background-color: #48abde;
+		}
+
+		.minti_zooming_slider .flex-control-nav li .minti_zooming_slider_ghost {
+			background-color: #48abde;
+		}
+
+		.minti_carousel.pagination_numbers .owl-dots .owl-dot.active {
+			background-color: #48abde;
+		}
+
+		.wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active,
+		.color-light .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active {
+			background-color: #48abde;
+		}
+
+		.masonry_icon i {
+			color: #48abde;
+		}
+
+		.woocommerce-MyAccount-navigation-link.is-active a {
+			color: #48abde;
+		}
+
+		/* Special Font */
+
+		.font-special,
+		.button,
+		.counter-title,
+		h6,
+		.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a,
+		.pricing-plan .pricing-plan-head h3,
+		a.catimage,
+		.divider-title,
+		button,
+		input[type='submit'],
+		input[type='reset'],
+		input[type='button'],
+		.vc_pie_chart h4,
+		.page-404 h3,
+		.minti_masonrygrid_item h4 {
+			font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+			/*letter-spacing: 0px; font-weight: ;*/
+		}
+
+		.ui-helper-reset {
+			line-height: 1.9;
+		}
+
+		/* User CSS from Theme Options */
+
+		.header-v1 .logo {
+			width: 200px;
+		}
+
+		.header-transparent .logo_standard {
+			display: inline !important;
+		}
+
+		#header.header-transparent.header-v1 {
+			box-shadow: none !important;
+		}
+
+		.wpb_row.columns_no_padding div[class*='vc_col-'] {
+			padding: 0 !important;
+		}
+
+		.newsletter-field-button {
+			padding-top: 15px;
+		}
+
+		.members div.vc_column-inner div.wpb_wrapper {
+			height: 100%;
+		}
+
+		.members div.vc_column-inner div.wpb_wrapper div.member {
+			height: 100%;
+		}
+
+		.members div.vc_column-inner div.wpb_wrapper div.member div.member-content {
+			border-bottom: none;
+		}
+
+		.timeline .item img,
+		#content .timeline .item img {
+			max-height: 150px;
+		}
+
+		.latest-blog-list .blog-list-item-date {
+			width: 60px;
+		}
+
+		@media only screen and (max-width: 959px) {
+			#header,
+			.sticky-wrapper {
+				display: none;
+			}
+			#mobile-header {
+				display: inherit
+			}
+		}
+	</style>
+	<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.airtracker.com/wp/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+	<link rel="icon" href="./wp/wp-content/uploads/2016/09/cropped-logo_hazer-32x32.png" sizes="32x32">
+	<link rel="icon" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-192x192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-180x180.png">
+	<meta name="msapplication-TileImage" content="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-270x270.png">
+	<!-- BEGIN GADWP v5.2.2 Universal Analytics - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-99901856-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- END GADWP Universal Analytics -->
+	<style type="text/css">
+		#Ausstocks Price Box .asx_price_box {
+			width: 100%;
+			border: 1px solid #e1e1e1;
+		}
+
+		.asx_head {
+			color: #fff;
+			background-color: #54626f;
+			padding: 10px;
+		}
+
+		.asx_head a {
+			color: #fff !important;
+		}
+
+		.asx_code {
+			font-size: 2em;
+			margin-right: 30px;
+			float: left;
+		}
+
+		.asx_price {
+			font-size: 2em;
+			color: #fff;
+			float: left
+		}
+
+		.asx_change {
+			font-size: 1.2em;
+			color: #fff;
+			float: right
+		}
+
+		.asx_bg_1 {
+			background-color: #ffffff;
+		}
+
+		.asx_bg_2 {
+			background-color: #f8f8f8;
+		}
+
+		.asx_col_l {
+			width: 70%;
+			float: left;
+			padding: 10px;
+			border-bottom: 1px solid #e1e1e1;
+			font-weight: bold;
+		}
+
+		.asx_col_r {
+			width: 30%;
+			float: right;
+			padding: 10px;
+			text-align: right;
+			border-bottom: 1px solid #e1e1e1;
+			font-weight: bold;
+		}
+
+		#Ausstocks Latest Announcements .latest_announcements {
+			margin-left: -20px;
+		}
+
+		.latest_announce_content {
+			font-size: 0.9em;
+		}
+
+		#Ausstocks Announcements .aus_tabcontainer {
+			margin: 30px 0;
+			position: relative;
+			width: 100%;
+			clear: both;
+			overflow: hidden;
+			background: transparent;
+		}
+
+		.aus_tab_titles {
+			position: relative;
+			width: 100%;
+			clear: both;
+			float: left;
+			z-index: 5;
+		}
+
+		.aus_tab_content {
+			visibility: hidden;
+			clear: both;
+			padding: 10px 19px;
+			overflow: auto;
+			position: absolute;
+			top: 0;
+			z-index: 0;
+			left: 120%;
+			width: 100%;
+		}
+
+		.aus_tab {
+			cursor: pointer;
+			margin: 0 -1px 0 0;
+			display: block;
+			float: left;
+			z-index: 2;
+			position: relative;
+			padding: 12px 16px;
+			top: 1px;
+			font-size: 0.8em;
+			text-decoration: none;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			border-style: solid;
+			border-width: 1px;
+		}
+
+		.aus_active_tab {
+			z-index: 4;
+			position: relative;
+			font-weight: bold;
+			text-decoration: none;
+			border-bottom: none;
+			background: #FFF;
+		}
+
+		.aus_tab_titles .aus_tab:first-child {
+			border-top-left-radius: 2px;
+		}
+
+		.aus_tab_titles .aus_tab:last-child {
+			border-top-right-radius: 2px;
+		}
+
+		.aus_tab_titles a {
+			color: #719430;
+		}
+
+		.aus_active_tab_content {
+			display: block;
+			visibility: visible;
+			z-index: 3;
+			position: relative;
+			overflow: auto;
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 2px;
+			left: 0;
+			width: auto;
+		}
+
+		.aus_tab_inner_content {
+			margin: 11px 0;
+			left: -200%;
+			position: relative;
+		}
+
+		.aus_active_tab_content .aus_tab_inner_content {
+			left: 0;
+			position: relative;
+		}
+
+		.aus_tab_inner_content table,
+		.aus_tab_inner_content th,
+		.aus_tab_inner_content td {
+			border: 1px solid #d1d1d1;
+		}
+
+		.aus_tab_inner_content th,
+		.aus_tab_inner_content td {
+			padding: 0.4375em;
+		}
+
+		.aus_tab_inner_content td {
+			border-width: 0 1px 1px 0;
+		}
+
+		.aus_tab_titles .aus_tab {
+			border-bottom: none;
+			padding: 12px 16px 14px 16px;
+		}
+
+		.aus_tab_titles a:hover,
+		.aus_tab_titles a:focus,
+		.aus_tab_titles a:visited {
+			text-decoration: none;
+		}
+	</style>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1474538828358 {
+			margin: 0px !important;
+			padding: 40px !important;
+			background-color: #ffffff !important;
+		}
+
+		.vc_custom_1475054167063 {
+			margin-top: 0px !important;
+			margin-right: 0px !important;
+			margin-bottom: 0px !important;
+			margin-left: 0px !important;
+			padding-top: 0px !important;
+			padding-right: 0px !important;
+			padding-bottom: 0px !important;
+			padding-left: 0px !important;
+			background-image: url(./wp/wp-content/uploads/2016/09/people-woman-coffee-meeting-large.jpg) !important;
+		}
+	</style>
+	<noscript>
 		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel="stylesheet" id="timeline-css-css" href="./files/timeline.css" type="text/css" media="all">
-<link rel="stylesheet" id="customScroll-css-css" href="./files/jquery.css" type="text/css" media="all">
-<link rel="stylesheet" id="prettyPhoto-css-css" href="./files/prettyPhoto.css" type="text/css" media="all">
-<link rel="stylesheet" id="my_timeline_font_awesome-css" href="./files/font-awesome_002.css" type="text/css" media="all">
-<link rel="stylesheet" id="my_timeline_lineicons_css-css" href="./files/themify-icons.css" type="text/css" media="all">
-<link rel="stylesheet" id="juicerstyle-css" href="./files/embed.css" type="text/css" media="all">
-<link rel="stylesheet" id="contact-form-7-css" href="./files/styles.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-css" href="./files/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" id="stylesheet-css" href="./files/style_002.css" type="text/css" media="all">
-<link rel="stylesheet" id="js_composer_front-css" href="./files/js_composer.css" type="text/css" media="all">
-<link rel="stylesheet" id="shortcodes-css" href="./files/shortcodes.css" type="text/css" media="all">
-<link rel="stylesheet" id="responsive-css" href="./files/responsive.css" type="text/css" media="all">
-<link rel="stylesheet" id="newsletter-subscription-css" href="./files/style.css" type="text/css" media="all">
-<link rel="stylesheet" href="./files/css.css"><script type="text/javascript" src="./files/jquery_003.js"></script>
-<script type="text/javascript" src="./files/jquery-migrate.js"></script>
-<script type="text/javascript" src="./files/jquery_005.js"></script>
-<script type="text/javascript" src="./files/jquery_008.js"></script>
-<script type="text/javascript" src="./files/jquery.js"></script>
-<script type="text/javascript" src="./files/jquery_006.js"></script>
-<script type="text/javascript" src="./files/jquery_007.js"></script>
-<script type="text/javascript" src="./files/rollover.js"></script>
-<script type="text/javascript" src="./files/jquery_002.js"></script>
-<script type="text/javascript" src="./files/jquery_004.js"></script>
-<script type="text/javascript" src="./files/embed-no-jquery.js"></script>
-<script type="text/javascript" src="./files/highstock.js"></script>
-<script type="text/javascript" src="./files/exporting.js"></script>
-<link rel="https://api.w.org/" href="http://www.airtracker.com/wp-json/">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.airtracker.com/wp/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.airtracker.com/wp/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 4.9.4">
-<link rel="shortlink" href="http://www.airtracker.com/">
-<link rel="alternate" type="application/json+oembed" href="http://www.airtracker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.airtracker.com%2F">
-<link rel="alternate" type="text/xml+oembed" href="http://www.airtracker.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.airtracker.com%2F&amp;format=xml">
-		<script type="text/javascript">
-			my_timeline_front_ajax_nonce="abd6c2fc2d";
-			my_timeline_front_ajax_url="http://www.airtracker.com/wp/wp-admin/admin-ajax.php";
-		</script>
-		<link href="./files/css_002.css" rel="stylesheet" type="text/css">
-<style>
-.scroll-back-to-top-wrapper {
-    position: fixed;
-	opacity: 0;
-	visibility: hidden;
-	overflow: hidden;
-	text-align: center;
-	z-index: 99999999;
-    background-color: #777777;
-	color: #eeeeee;
-	width: 50px;
-	height: 48px;
-	line-height: 48px;
-	right: 30px;
-	bottom: 30px;
-	padding-top: 2px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-.scroll-back-to-top-wrapper:hover {
-	background-color: #888888;
-  color: #eeeeee;
-}
-.scroll-back-to-top-wrapper.show {
-    visibility:visible;
-    cursor:pointer;
-	opacity: 1.0;
-}
-.scroll-back-to-top-wrapper i.fa {
-	line-height: inherit;
-}
-.scroll-back-to-top-wrapper .fa-lg {
-	vertical-align: 0;
-}
-</style><style type="text/css">
-body{ font: 400 13px Open Sans, Arial, Helvetica, sans-serif; color: #777777; line-height: 1.9;} .wrapall, .boxed-layout{ background-color: #ffffff; } body.page-template-page-blank-php{ background: #ffffff !important; } h1, .title-h1{ font: 28px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } h2{ font: 24px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } h3{ font: 20px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } h4{ font: 16px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } h5{ font: 16px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } h6{ font: 16px Open Sans, Arial, Helvetica, sans-serif; color: #333333; } .title{ font-family: 'Open Sans', Arial, Helvetica, sans-serif; } h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; color: inherit; } h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 { color: #333333; } a{ color: #48abde; } a:hover{ color: #333333; } input[type='text'], input[type='password'], input[type='email'], input[type='tel'], textarea, select { font-family: Open Sans, Arial, Helvetica, sans-serif; font-size: 13px; } #sidebar .widget h3{ font: 14px Montserrat, Arial, Helvetica, sans-serif; color: #444444; } .container .twelve.alt.sidebar-right, .container .twelve.alt.sidebar-left, #sidebar.sidebar-right #sidebar-widgets, #sidebar.sidebar-left #sidebar-widgets{ border-color: #efefef;} #topbar{ background: #f5f5f5; color: #777777; } #topbar a{ color: #999999; } #topbar a:hover{ color: #333333; } @media only screen and (max-width: 767px) { #topbar .topbar-col1{ background: #f5f5f5; } } /* Navigation */ #navigation > ul > li > a{ font: 13px Montserrat, Arial, Helvetica, sans-serif; color: #777777; } #navigation > ul > li:hover > a, #navigation > ul > li > a:hover { color: #48abde; } #navigation li.current-menu-item > a:hover, #navigation li.current-page-ancestor > a:hover, #navigation li.current-menu-ancestor > a:hover, #navigation li.current-menu-parent > a:hover, #navigation li.current_page_ancestor > a:hover, #navigation > ul > li.sfHover > a { color: #48abde; } #navigation li.current-menu-item > a, #navigation li.current-page-ancestor > a, #navigation li.current-menu-ancestor > a, #navigation li.current-menu-parent > a, #navigation li.current_page_ancestor > a { color: #48abde; } #navigation ul li:hover{ border-color: #48abde; } #navigation li.current-menu-item, #navigation li.current-page-ancestor, #navigation li.current-menu-ancestor, #navigation li.current-menu-parent, #navigation li.current_page_ancestor{ border-color: #48abde; } #navigation .sub-menu{ background: #262626; } #navigation .sub-menu li a{ font: 13px Open Sans, Arial, Helvetica, sans-serif; color: #bbbbbb; } #navigation .sub-menu li a:hover{ color: #ffffff; } #navigation .sub-menu li.current_page_item > a, #navigation .sub-menu li.current_page_item > a:hover, #navigation .sub-menu li.current-menu-item > a, #navigation .sub-menu li.current-menu-item > a:hover, #navigation .sub-menu li.current-page-ancestor > a, #navigation .sub-menu li.current-page-ancestor > a:hover, #navigation .sub-menu li.current-menu-ancestor > a, #navigation .sub-menu li.current-menu-ancestor > a:hover, #navigation .sub-menu li.current-menu-parent > a, #navigation .sub-menu li.current-menu-parent > a:hover, #navigation .sub-menu li.current_page_ancestor > a, #navigation .sub-menu li.current_page_ancestor > a:hover{ color: #ffffff; } #navigation .sub-menu li a, #navigation .sub-menu ul li a{ border-color: #333333; } #navigation > ul > li.megamenu > ul.sub-menu{ background: #262626; border-color: #48abde; } #navigation > ul > li.megamenu > ul > li { border-right-color: #333333 !important; } #navigation > ul > li.megamenu ul li a{ color:#bbbbbb; } #navigation > ul > li.megamenu > ul > li > a { color:#ffffff; } #navigation > ul > li.megamenu > ul ul li a:hover, #header #navigation > ul > li.megamenu > ul ul li.current-menu-item a { color: #ffffff !important; background-color: #333333 !important; } /* Header General */ #search-btn, #shopping-btn, #close-search-btn { color: #bbbbbb; } #search-btn:hover, #shopping-btn:hover, #close-search-btn:hover { color: #999999; } #slogan{ font: 400 20px Open Sans, Arial, Helvetica, sans-serif; color: #777777; margin-top: 26px; } /* Mobile Header */ #mobile-navigation{ background: #262626; } #mobile-navigation ul li a{ font: 13px Open Sans, Arial, Helvetica, sans-serif; color: #bbbbbb; border-bottom-color: #333333 !important; } #mobile-navigation ul li a:hover, #mobile-navigation ul li a:hover [class^='fa-'], #mobile-navigation li.open > a, #mobile-navigation ul li.current-menu-item > a, #mobile-navigation ul li.current-menu-ancestor > a{ color: #ffffff; } body #mobile-navigation li.open > a [class^='fa-']{ color: #ffffff; } #mobile-navigation form, #mobile-navigation form input{ background: #444444; color: #cccccc; } #mobile-navigation form:before{ color: #cccccc; } #mobile-header{ background: #ffffff; height: 90px; } #mobile-navigation-btn, #mobile-cart-btn, #mobile-shopping-btn{ color: #bbbbbb; line-height: 90px; } #mobile-navigation-btn:hover, #mobile-cart-btn:hover, #mobile-shopping-btn:hover { color: #999999; } #mobile-header .logo{ margin-top: 24px; } /* Header V1 */ #header.header-v1 { height: 90px; background: #ffffff; } .header-v1 .logo{ margin-top: 24px; } .header-v1 #navigation > ul > li{ height: 90px; padding-top: 35px; } .header-v1 #navigation .sub-menu{ top: 90px; } .header-v1 .header-icons-divider{ line-height: 90px; background: #efefef; } #header.header-v1 .widget_shopping_cart{ top: 90px; } .header-v1 #search-btn, .header-v1 #close-search-btn, .header-v1 #shopping-btn{ line-height: 90px; } .header-v1 #search-top, .header-v1 #search-top input{ height: 90px; } .header-v1 #search-top input{ color: #666666; font-family: Open Sans, Arial, Helvetica, sans-serif; } /* Header V3 */ #header.header-v3 { background: #ffffff; } .header-v3 .navigation-wrap{ background: #ffffff; border-top: 1px solid #efefef; } .header-v3 .logo { margin-top: 30px; margin-bottom: 30px; } /* Header V4 */ #header.header-v4 { background: #ffffff; } .header-v4 .navigation-wrap{ background: #ffffff; border-top: 1px solid #efefef; } .header-v4 .logo { margin-top: 30px; margin-bottom: 30px; } /* Transparent Header */ #transparentimage{ padding: 90px 0 0 0; } .header-is-transparent #mobile-navigation{ top: 90px; } /* Stuck */ .stuck{ background: #ffffff; } /* Titlebars */ .titlebar h1, .title-h1{ font: 22px Open Sans, Arial, Helvetica, sans-serif; color: #777777; } #fulltitle{ background: #f9f9f9; border-bottom: 1px solid #efefef; } #breadcrumbs{ margin-top: 6px; } #breadcrumbs, #breadcrumbs a{ font: 13px Open Sans, Arial, Helvetica, sans-serif; color: #aaaaaa; } #breadcrumbs a:hover{ color: #666666; } #fullimagecenter h1, #transparentimage h1, #fullimagecenter .title-h1, #transparentimage .title-h1{ font: 42px Montserrat, Arial, Helvetica, sans-serif; color: #ffffff; text-transform: uppercase; letter-spacing: 1px; text-align: center; } /* Footer */ #footer .widget h3{ font: 13px Montserrat, Arial, Helvetica, sans-serif; color: #ffffff; } #footer{ color: #888888; border-top: 4px none #1cbac8; } #footer{ background-color: #262626; } #footer a, #footer .widget ul li:after { color: #888888; } #footer a:hover, #footer .widget ul li:hover:after { color: #ffffff; } #footer .widget ul li{ border-bottom-color: #333333; } /* Copyright */ #copyright{ background: #1b1b1b; color: #777777; } #copyright a { color: #999999; } #copyright a:hover { color: #cccccc; } /* Color Accent */ .highlight{color:#48abde !important;} ::selection{ background: #48abde; } ::-moz-selection { background: #48abde; } #shopping-btn span{background:#48abde;} .blog-page .post h1 a:hover,.blog-page .post h2 a:hover{color:#48abde;} .entry-image .entry-overlay{background:#48abde;} .entry-quote a:hover{background:#48abde;} .entry-link a:hover{background:#48abde;} .blog-single .entry-tags a:hover{color:#48abde;} .sharebox ul li a:hover{color:#48abde;} #pagination .current a{background:#48abde;} #filters ul li a:hover{color:#48abde;} #filters ul li a.active{color:#48abde;} #back-to-top a:hover{background-color:#48abde;} #sidebar .widget ul li a:hover{color:#48abde;} #sidebar .widget ul li:hover:after{color:#48abde;} .widget_tag_cloud a:hover,.widget_product_tag_cloud a:hover{background:#48abde;border-color:#48abde;} .widget_portfolio .portfolio-widget-item .portfolio-overlay{background:#48abde;} #sidebar .widget_nav_menu ul li a:hover{color:#48abde;} #footer .widget_tag_cloud a:hover,#footer .widget_product_tag_cloud a:hover{background:#48abde;border-color:#48abde;} /* Shortcodes */ .box.style-2{border-top-color:#48abde;} .box.style-4{border-color:#48abde;} .box.style-6{background:#48abde;} a.button,input[type=submit],button,.minti_button{background:#48abde;border-color:#48abde;} a.button.color-2{color:#48abde;border-color:#48abde;} a.button.color-3{background:#48abde;border-color:#48abde;} a.button.color-9{color:#48abde;} a.button.color-6:hover{background:#48abde;border-color:#48abde;} a.button.color-7:hover{background:#48abde;border-color:#48abde;} .counter-number{color:#48abde;} .divider-title.align-center:after, .divider-title.align-left:after { background-color:#48abde } .divider5{border-bottom-color:#48abde;} .dropcap.dropcap-circle{background-color:#48abde;} .dropcap.dropcap-box{background-color:#48abde;} .dropcap.dropcap-color{color:#48abde;} .toggle .toggle-title.active, .color-light .toggle .toggle-title.active{ background:#48abde; border-color: #48abde;} .iconbox-style-1.icon-color-accent i.boxicon,.iconbox-style-2.icon-color-accent i.boxicon,.iconbox-style-3.icon-color-accent i.boxicon,.iconbox-style-8.icon-color-accent i.boxicon,.iconbox-style-9.icon-color-accent i.boxicon{color:#48abde!important;} .iconbox-style-4.icon-color-accent i.boxicon,.iconbox-style-5.icon-color-accent i.boxicon,.iconbox-style-6.icon-color-accent i.boxicon,.iconbox-style-7.icon-color-accent i.boxicon,.flip .icon-color-accent.card .back{background:#48abde;} .latest-blog .blog-item .blog-overlay{background:#48abde;} .latest-blog .blog-item .blog-pic i{color:#48abde;} .latest-blog .blog-item h4 a:hover{color:#48abde;} .progressbar .progress-percentage{background:#48abde;} .wpb_widgetised_column .widget ul li a:hover{color:#48abde;} .wpb_widgetised_column .widget ul li:hover:after{color:#48abde;} .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon{background-color:#48abde;} .wpb_accordion .wpb_accordion_wrapper .ui-state-active.wpb_accordion_header a{color:#48abde;} .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover,.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover .ui-state-default .ui-icon{color:#48abde;} .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header:hover .ui-icon{background-color:#48abde!important;} .wpb_content_element.wpb_tabs .wpb_tabs_nav li.ui-tabs-active{border-bottom-color:#48abde;} .portfolio-item h4 a:hover{ color: #48abde; } .portfolio-filters ul li a:hover { color: #48abde; } .portfolio-filters ul li a.active { color: #48abde; } .portfolio-overlay-icon .portfolio-overlay{ background: #48abde; } .portfolio-overlay-icon i{ color: #48abde; } .portfolio-overlay-effect .portfolio-overlay{ background: #48abde; } .portfolio-overlay-name .portfolio-overlay{ background: #48abde; } .portfolio-detail-attributes ul li a:hover{ color: #48abde; } a.catimage:hover .catimage-text{ background: #48abde; } /* WooCommerce */ .products li h3{font: 400 13px Open Sans, Arial, Helvetica, sans-serif; color: #777777;} .woocommerce .button.checkout-button{background:#48abde;border-color:#48abde;} .woocommerce .products .onsale{background:#48abde;} .product .onsale{background:#48abde;} button.single_add_to_cart_button:hover{background:#48abde;} .woocommerce-tabs > ul > li.active a{color:#48abde;border-bottom-color:#48abde;} p.stars a:hover{background:#48abde;} p.stars a.active,p.stars a.active:after{background:#48abde;} .product_list_widget a{color:#48abde;} .woocommerce .widget_layered_nav li.chosen a{color:#48abde!important;} .woocommerce .widget_product_categories > ul > li.current-cat > a{color:#48abde!important;} .woocommerce .widget_product_categories > ul > li.current-cat:after{color:#48abde!important;} .woocommerce-message{ background: #48abde; } .bbp-topics-front ul.super-sticky .bbp-topic-title:before, .bbp-topics ul.super-sticky .bbp-topic-title:before, .bbp-topics ul.sticky .bbp-topic-title:before, .bbp-forum-content ul.sticky .bbp-topic-title:before{color: #48abde!important; } #subscription-toggle a:hover{ background: #48abde; } .bbp-pagination-links span.current{ background: #48abde; } div.wpcf7-mail-sent-ok,div.wpcf7-mail-sent-ng,div.wpcf7-spam-blocked,div.wpcf7-validation-errors{ background: #48abde; } .wpcf7-not-valid{ border-color: #48abde !important;} .products .button.add_to_cart_button{ color: #48abde!important; } .minti_list.color-accent li:before{ color: #48abde!important; } .blogslider_text .post-categories li a{ background-color: #48abde; } .minti_zooming_slider .flex-control-nav li .minti_zooming_slider_ghost { background-color: #48abde; } .minti_carousel.pagination_numbers .owl-dots .owl-dot.active{ background-color: #48abde; } .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active, .color-light .wpb_content_element.wpb_tour .wpb_tabs_nav li.ui-tabs-active{ background-color: #48abde; } .masonry_icon i{ color: #48abde; } .woocommerce-MyAccount-navigation-link.is-active a{ color: #48abde;} /* Special Font */ .font-special, .button, .counter-title, h6, .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a, .pricing-plan .pricing-plan-head h3, a.catimage, .divider-title, button, input[type='submit'], input[type='reset'], input[type='button'], .vc_pie_chart h4, .page-404 h3, .minti_masonrygrid_item h4{ font-family: 'Montserrat', Arial, Helvetica, sans-serif; /*letter-spacing: 0px; font-weight: ;*/} .ui-helper-reset{ line-height: 1.9; } /* User CSS from Theme Options */ .header-v1 .logo{width:200px;} .header-transparent .logo_standard {display: inline !important;} #header.header-transparent.header-v1 {box-shadow:none !important;} .wpb_row.columns_no_padding div[class*='vc_col-']{padding:0 !important; } .newsletter-field-button {padding-top:15px;} .members div.vc_column-inner div.wpb_wrapper {height:100%;} .members div.vc_column-inner div.wpb_wrapper div.member{height:100%; } .members div.vc_column-inner div.wpb_wrapper div.member div.member-content{ border-bottom:none;} .timeline .item img, #content .timeline .item img { max-height: 150px; } .latest-blog-list .blog-list-item-date {width: 60px;} @media only screen and (max-width: 959px) { #header, .sticky-wrapper{display:none;} #mobile-header{display:inherit} }
-</style><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.airtracker.com/wp/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="./wp/wp-content/uploads/2016/09/cropped-logo_hazer-32x32.png" sizes="32x32">
-<link rel="icon" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon-precomposed" href="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-180x180.png">
-<meta name="msapplication-TileImage" content="http://www.airtracker.com/wp/wp-content/uploads/2016/09/cropped-logo_hazer-270x270.png">
-<!-- BEGIN GADWP v5.2.2 Universal Analytics - https://deconf.com/google-analytics-dashboard-wordpress/ -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-99901856-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<!-- END GADWP Universal Analytics -->
-<style type="text/css">#Ausstocks Price Box
-.asx_price_box{width:100%;border: 1px solid #e1e1e1;}
-.asx_head{ color:#fff; background-color:#54626f;padding:10px;}
-.asx_head a{ color:#fff !important;}
-.asx_code{font-size:2em;margin-right:30px; float:left;}
-.asx_price {font-size:2em;color:#fff;float:left}
-.asx_change{font-size:1.2em;color:#fff; float:right}
-.asx_bg_1{background-color:#ffffff;}
-.asx_bg_2{background-color:#f8f8f8;}
-.asx_col_l{width:70%;float:left;padding:10px;border-bottom: 1px solid #e1e1e1;font-weight:bold;}
-.asx_col_r{width:30%;float:right;padding:10px;text-align:right;border-bottom: 1px solid #e1e1e1;font-weight:bold;}
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+	<style id="fit-vids-style">
+		.fluid-width-video-wrapper {
+			width: 100%;
+			position: relative;
+			padding: 0;
+		}
 
-#Ausstocks Latest Announcements
-.latest_announcements{margin-left:-20px;}
-.latest_announce_content{font-size:0.9em;} 
+		.fluid-width-video-wrapper iframe,
+		.fluid-width-video-wrapper object,
+		.fluid-width-video-wrapper embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
 
-#Ausstocks Announcements
-.aus_tabcontainer{margin: 30px 0;position: relative;width:100%;clear: both;overflow: hidden;background: transparent;}
-.aus_tab_titles{position: relative;width:100%;clear: both;float:left;z-index: 5;}
-.aus_tab_content{visibility: hidden;clear: both;padding: 10px 19px;overflow:auto;position: absolute;top:0;z-index: 0;left:120%;width:100%;}
-.aus_tab{cursor:pointer;margin:0 -1px 0 0;display: block;float: left;z-index: 2;position: relative;padding:12px 16px;top:1px;font-size: 0.8em;text-decoration: none;
--webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-border-style: solid;
-border-width:1px;
-}
-.aus_active_tab{
-z-index: 4;
-position: relative;
-font-weight: bold;
-text-decoration: none;
-border-bottom: none;
-background: #FFF;
-}
-.aus_tab_titles .aus_tab:first-child{
-border-top-left-radius:  2px;
-}
-.aus_tab_titles .aus_tab:last-child{
-border-top-right-radius: 2px;
-}
-.aus_tab_titles a {
-	color: #719430;
-}
-.aus_active_tab_content{
-display: block;
-visibility: visible;
-z-index: 3;
-position: relative;
-overflow:auto;
-border-style: solid;
-border-width:1px;
-border-radius: 2px;
-left:0;
-width:auto;
-}
-.aus_tab_inner_content{
-margin: 11px 0;
-left:-200%;
-position: relative;
-}
-.aus_active_tab_content .aus_tab_inner_content{
-left:0;
-position: relative;
-}
-.aus_tab_inner_content table, .aus_tab_inner_content th, .aus_tab_inner_content td {
-    border: 1px solid #d1d1d1;
-}
-.aus_tab_inner_content th, .aus_tab_inner_content td {
-    padding: 0.4375em;
-}
-.aus_tab_inner_content td {
-    border-width: 0 1px 1px 0;
-}
-.aus_tab_titles .aus_tab{border-bottom: none;padding:12px 16px 14px 16px;}
-.aus_tab_titles a:hover, .aus_tab_titles a:focus, .aus_tab_titles a:visited{
-   text-decoration: none;
-}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1474538828358{margin: 0px !important;padding: 40px !important;background-color: #ffffff !important;}.vc_custom_1475054167063{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(./wp/wp-content/uploads/2016/09/people-woman-coffee-meeting-large.jpg) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
-
-<body class="home page-template-default page page-id-8 smooth-scroll header-is-transparent  pagescroll wpb-js-composer js-comp-ver-5.1.1 vc_responsive" style="background-color: rgb(27, 27, 27);">
+<body class="home page-template-default page page-id-8 smooth-scroll header-is-transparent  pagescroll wpb-js-composer js-comp-ver-5.1.1 vc_responsive"
+ style="background-color: rgb(27, 27, 27);">
 
 	<div class="site-wrapper wrapall">
 
-	
-<header id="header" class="header header-v1 header-v1-only clearfix header-transparent ">
-		
-	<div class="header-wide-container">
-	
-		<div id="logo-navigation" class="sixteen columns">
-			
-			<div id="logo" class="logo">
-									<a href="http://www.airtracker.com/"><img src="./files/logo_hazer_new.png" alt="AirTracker" class="logo_standard"></a>
-																						</div>
 
-			<div id="navigation" class="clearfix">			
-				<div class="header-icons">
-												
-								</div>	
+		<header id="header" class="header header-v1 header-v1-only clearfix header-transparent ">
 
-				<ul id="nav" class="menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-8 current_page_item menu-item-10"><a href="http://www.airtracker.com/">Home</a></li>
-<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80"><a href="http://www.airtracker.com/about/" class="sf-with-ul">About</a>
-<ul class="sub-menu" style="display: none;">
-	<li id="menu-item-1297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1297"><a href="http://www.airtracker.com/about/#company_overview">Company Overview</a></li>
-	<li id="menu-item-1298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1298"><a href="http://www.airtracker.com/about/#facilities">Facilities</a></li>
-	<li id="menu-item-1299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299"><a href="http://www.airtracker.com/about/#learn_about_hazer">Learn About AirTracker</a></li>
-	<li id="menu-item-1300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1300"><a href="http://www.airtracker.com/about/#the_hazer_process">The AirTracker</a></li>
-	<li id="menu-item-1301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1301"><a href="http://www.airtracker.com/about/#our_markets">Our Markets</a></li>
-	<li id="menu-item-1302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1302"><a href="http://www.airtracker.com/about/#competitive_advantage">Competitive Advantage</a></li>
-</ul>
-</li>
-<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79"><a href="http://www.airtracker.com/investors/" class="sf-with-ul">Investors</a>
-<ul class="sub-menu" style="display: none;">
-	<li id="menu-item-1305" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1305"><a href="http://www.airtracker.com/investors/#announcements_news_media">Announcements</a></li>
-	<li id="menu-item-1306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1306"><a href="http://www.airtracker.com/investors/#announcements_news_media">News and Media</a></li>
-	<li id="menu-item-1458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1458"><a href="http://www.airtracker.com/investors/#announcements_news_media">Research Reports</a></li>
-	<li id="menu-item-1303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1303"><a href="http://www.airtracker.com/investors/#board_and_management">Board and Managment</a></li>
-	<li id="menu-item-1304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1304"><a href="http://www.airtracker.com/investors/#corporate_governance">Corporate Governance</a></li>
-	<li id="menu-item-1307" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1307"><a href="http://www.airtracker.com/investors/#share_registry">Share Registry</a></li>
-</ul>
-</li>
-<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://www.airtracker.com/social-media/">Social Media</a></li>
-<li id="menu-item-81" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81"><a href="http://www.airtracker.com/category/blog/">Blog</a></li>
-<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://www.airtracker.com/contact-us/">Contact Us</a></li>
-</ul>			</div>
-			
-		</div>
-		
-		
-			
+			<div class="header-wide-container">
 
-	</div>	
-	
-</header>
+				<div id="logo-navigation" class="sixteen columns">
 
-<div id="mobile-header" class="mobile-header-v1">
-	<div class="container">
-		<div class="sixteen columns">
-			<div id="mobile-logo" class="logo">
-									<a href="http://www.airtracker.com/"><img src="./files/logo_hazer_new.png" alt="AirTracker" class="logo_standard"></a>
-												</div>
-			<a href="#" id="mobile-navigation-btn"><i class="fa fa-bars"></i></a>
+					<div id="logo" class="logo">
+						<a href="http://www.airtracker.com/">
+							<img src="./files/logo_hazer_new.png" alt="AirTracker" class="logo_standard">
+						</a>
 					</div>
-	</div>
-</div>
 
-<div id="mobile-navigation" style="display: none;">
-	<div class="container">
-		<div class="sixteen columns">
-			<div class="menu-main-menu-container"><ul id="mobile-nav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-10"><a href="http://www.airtracker.com/">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80 has-ul"><a href="http://www.airtracker.com/about/">About<i class="fa fa-chevron-down"></i></a>
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1297"><a href="http://www.airtracker.com/about/#company_overview">Company Overview</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1298"><a href="http://www.airtracker.com/about/#facilities">Facilities</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299"><a href="http://www.airtracker.com/about/#learn_about_hazer">Learn About AirTracker</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1300"><a href="http://www.airtracker.com/about/#the_hazer_process">The AirTracker</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1301"><a href="http://www.airtracker.com/about/#our_markets">Our Markets</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1302"><a href="http://www.airtracker.com/about/#competitive_advantage">Competitive Advantage</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79 has-ul"><a href="http://www.airtracker.com/investors/">Investors<i class="fa fa-chevron-down"></i></a>
-<ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1305"><a href="http://www.airtracker.com/investors/#announcements_news_media">Announcements</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1306"><a href="http://www.airtracker.com/investors/#announcements_news_media">News and Media</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1458"><a href="http://www.airtracker.com/investors/#announcements_news_media">Research Reports</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1303"><a href="http://www.airtracker.com/investors/#board_and_management">Board and Managment</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1304"><a href="http://www.airtracker.com/investors/#corporate_governance">Corporate Governance</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1307"><a href="http://www.airtracker.com/investors/#share_registry">Share Registry</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://www.airtracker.com/social-media/">Social Media</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81"><a href="http://www.airtracker.com/category/blog/">Blog</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://www.airtracker.com/contact-us/">Contact Us</a></li>
-</ul></div>			
-						<form action="http://www.airtracker.com" method="GET">
-	      		<input name="s" placeholder="Search.." autocomplete="off" type="text">
-			</form> 
-				
-		</div>
-	</div>
-</div>
+					<div id="navigation" class="clearfix">
+						<div class="header-icons">
+
+						</div>
+
+						
+					</div>
+
+				</div>
 
 
-		
 
-
-<div id="page-wrap">
-
-	<div id="content" class="page-section nopadding">
-	
-		<div class="wpb_row vc_row-fluid full-width-section section  section-no-parallax  stretch   " data-speed="1" style="background-color: rgba(0,0,0,0.6); color: #ffffff; "><div class="video-fallback" style="background-image: url(./wp/wp-content/uploads/2016/09/Screen-Shot-2016-09-22-at-11.16.01.png)"></div>
-	<div class="video-wrap" style="width: 1327px; height: 770px; opacity: 1;">
-		<video preload="auto" autoplay="autoplay" loop="" muted="muted" style="width: 1425px; height: 810px;" width="1920" height="800"><source src="./files/HazerBGLoopBlack.webm" type="video/webm"><source src="./files/HazerBGLoopBlack.mp4" type="video/mp4">
-		</video>
-	</div><div class="col span_12 color-custom text-align-center">
-	<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
-		<div class="wpb_wrapper">
-			<div class="spacer" style="height: 300px;"></div><h1 class="headline font-inherit fontsize-xxxxl fontweight-900 lh-12 align-center transform-inherit " style="margin: 0 0 15px 0; color: #ffffff;">Air Tracker</h1>
-			<h3 class="headline font-inherit fontsize-xl fontweight-600 lh-12 align-center transform-inherit " style="margin: 0 0 25px 0;">
-					low cost solar powered environmental sensor array with build-in Sigfox interface
-			</h3><div class="spacer" style="height: 20px;"></div><a href="http://www.airtracker.com/about/" target="_self" class="button custom medium tx_al_center" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">
-				Learn More</a><div class="spacer" style="height: 300px;"></div>
-		</div> 
-	</div> 
-</div></div><div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch   " data-speed="1" style="background-color: #444444; "><div class="col span_12 color-dark left">
-	<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
-		<div class="wpb_wrapper">
-			<div class="spacer" style="height: 60px;"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left" 
-				style="margin: 0 0 20px 0; color: #ffffff;">ABOUT AIRTRACKER</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper">
-	<div class="wpb_text_column wpb_content_element  about-text">
-		<div class="wpb_wrapper">
-			<p><span style="color: #cccccc;">Air-tracker is a solar powered an environmental sensor array with build-in Sigfox interface. 
-					Air-tracker measure following pollutant and environment characteristic: 
-					Gases: 
-					Carbon monoxide CO      1-1000 ppm 
-					Nitrogen dioxide    NO2             0.05 -10ppm 
-					Hydrogen                 H2                1- 1000 ppm 
-					Ammonia                  NH3             1-500ppm 
-					Ethanol                    C2H5                       10 -500 ppm 
-					Methane                   CH4                > 1000pm 
-					Propane                    C3H8             > 1000pm 
-					Iso-Butane               C4H10           > 1000pm 
-					Ozone                     O3              0 -5ppm 
-					Sulfur Dioxide       SO2             0 -20ppm 
-					 Carbon Dioxide     CO2             0 -5000ppm 
-					Particles: 
-					P2.5 and P10  
-					Dust range from range (0 μg/m3 to 1,000 μg/m3) 
-					Accuracy of ±15 μg/m3    in the range (0 μg/m3 to 100 μg/m3)  
-					 ±15 % in the range (100 μg/m3 to 1000 μg/m3) 
-					Temperature sensor 
-					Accuracy of 0.2% 
-					Humidity sensor 
-					Accuracy of 2% 
-					Barometric Pressure sensor 
-					Range 300 – 1110 hPa,  
-					Accuracy ±1hPa 
-					Sound Level to Monitor Noise Pollution 
-					Range of the sensor: 50 dBA to 100 dBA 
-					 
-						   Accuracy of ±0.5 dBA (1KHz) 
-					Air-tracker equipped with Bluetooth Low Energy interface used for installation activation, firmware update and location reporting/positioning. 
-					 Optionally   GPS module could be installed. 
-					Air-tracker is equipped with 4 x 0.5W solar panels and 2 x 18650 Lithium batteries. Battery reserve eliminates needs for external power source and Airtracker could operate 28 days without sun. </span></p>
-
-		</div>
-	</div>
-</div></div></div></div><div class="spacer" style="height: 60px;"></div>
-		</div> 
-	</div> 
-</div></div><div class="wpb_row vc_row-fluid standard-section section  section-no-parallax hazer-about-section stretch   " data-speed="1" style=""><div class="col span_12 color-dark left">
-	<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
-		<div class="wpb_wrapper">
-			<div class="spacer" style="height: 60px;"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left" style="margin: 0 0 20px 0; color: #444444;">OUR MISSION</h2>
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>
-					As cities globally struggle to manage high levels of air pollution, numerous technologies and policies are being deployed to improve air quality. 
-					These solutions include congestion charging and low emissions zones, electrification of public transport, electric and automated vehicles, shared
-					 mobility programs, smart parking systems, expanded bicycle infrastructure, and air purification technologies. Although these solutions can help 
-					 reduce pollution levels, if city officials are to fully understand and improve air quality conditions, pollutants must be able to be accurately 
-					 measured, monitored, and managed. Currently, most cities measure air pollution using a collection of large environmental monitoring stations. 
-					 These stations are accurate in measuring air quality data, but their high cost often limits the quantity of deployments, resulting in gaps in coverage. 
-					 They are also static and may not capture the local nature of harmful pollution within city environments
-				</p>
-			</p>
-			<p>HAirTracker have identified an unique opportunity to launch our air quality monitoring device - the AirTracker - 
-				nd develop a cloud based environmental data collection service on a global scale through our partnership with Sigfox and Thinxtra.</p>
-
-		</div>
-	</div>
-<a href="http://www.airtracker.com/about/" target="_self" class="button custom small mobile-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div><div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left" style="margin: 0 0 20px 0; color: #444444;">OUR TECHNOLOGY</h2>
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>The AirTracker takes two ubiquitous and cheap feedstocks 
-(natural gas and iron ore), and uses these to generate two high value, 
-high demand products (hydrogen &amp; synthetic graphite) with global 
-market applications. The core of our technology is the use of iron-ore 
-as a low-cost catalyst for the gas decomposition reaction, which gives 
-us a strong commercial advantage for accessing both hydrogen and 
-high-quality graphite markets.</p>
-
-		</div>
-	</div>
-<a href="http://www.airtracker.com/about/#the_hazer_process" target="_self" class="button custom small mobile-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div><div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left" style="margin: 0 0 20px 0; color: #444444;">OUR COMPETITIVE ADVANTAGE</h2>
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>The key difference in the AirTracker over alternative hydrogen 
-production processes is that the carbon content of the natural gas 
-feedstock is captured in the form of solid graphite, rather than being 
-converted to CO<sub>2</sub>, making the process both cleaner and more 
-cost effective. This allows Hazer to produce ‘clean’ hydrogen (with 
-significant lower carbon dioxide emissions), enabling our hydrogen to be
- used in a range of developing clean energy applications, as well as in 
-large existing chemical processing industries.</p>
-
-		</div>
-	</div>
-<a href="http://www.airtracker.com/about/#competitive_advantage" target="_self" class="button custom small mobile-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="tx_al_right wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="spacer" style="height: 20px;"></div><a href="http://www.airtracker.com/about/" target="_self" class="button custom small mission-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div><div class="tx_al_right wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="spacer" style="height: 20px;"></div><a href="http://www.airtracker.com/about/#the_hazer_process" target="_self" class="button custom small technology-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div><div class="tx_al_right wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="spacer" style="height: 20px;"></div><a href="http://www.airtracker.com/about/#competitive_advantage" target="_self" class="button custom small competitive-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a></div></div></div></div>
-		</div> 
-	</div> 
-</div></div><div class="wpb_row vc_row-fluid standard-section section  section-parallax tx_al_center stretch bg-stretch  " data-speed="1" style="background-image: url(&quot;./wp/wp-content/uploads/2016/09/Screen-Shot-2016-09-22-at-11.16.01.png&quot;); color: rgb(255, 255, 255); background-position: 50% 632px; opacity: 1;"><div class="col span_12 color-custom text-align-center">
-	<div class="vc_col-sm-12 learn-about-hazer wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
-		<div class="wpb_wrapper">
-			<div class="spacer" style="height: 70px;"></div><div class="single_image wpb_content_element align-center    " data-animation="none" data-delay="0"><a href="https://www.youtube.com/watch?v=WGZty4x441s" class="prettyPhoto" rel="prettyPhoto[image]"><img class="" src="./files/playbutton-50x50.png" alt="playbutton" title="playbutton" width="50" height="50"></a></div><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading_center" style="margin: 0 0 20px 0; color: #ffffff;">
-				LEARN ABOUT AIRTRACKER</h2><div class="spacer" style="height: 70px;"></div>
-		</div> 
-	</div> 
-</div></div><div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch   " data-speed="1" style=""><div class="col span_12 color-dark left">
-	<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
-		<div class="wpb_wrapper">
-			<div class="spacer" style="height: 70px;"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left" style="margin: 0 0 20px 0; color: #444444;">LATEST NEWS</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="latest-blog  clearfix"><div class="latest-blog-list  clearfix wpb_content_element">
-							<div class="blog-list-item-date">01<span>Feb 18</span></div>
-						  	<div class="blog-list-item-description">
-								<h3><a href="http://www.proactiveinvestors.com.au/companies/news/190942/hazer-group-enters-2018-cashed-up-more-inflows-expected-190942.html" 
-									title="Air Tracker enters 2018 cashed up, more inflows expected">Air Tracker enters 2018 cashed up, more inflows expected</a></h3>
-								<b><i class="fa fa-cloud" aria-hidden="true"></i>
- Source: </b>Proactive Investors | <i class="fa fa-link" aria-hidden="true"></i> <a target="_blank" href="http://www.proactiveinvestors.com.au/companies/news/190942/hazer-group-enters-2018-cashed-up-more-inflows-expected-190942.html">View Article</a>
-							</div>
-					  	</div><div class="latest-blog-list  clearfix wpb_content_element">
-							<div class="blog-list-item-date">18<span>Jan 18</span></div>
-						  	<div class="blog-list-item-description">
-								<h3><a href="https://theconstantinvestor.com/the-hazer-process/" title="The AirTracker">The AirTracker</a></h3>
-								<b><i class="fa fa-cloud" aria-hidden="true"></i>
- Source: </b>The Constant Investor | <i class="fa fa-link" aria-hidden="true"></i> <a target="_blank" href="https://theconstantinvestor.com/the-hazer-process/">View Article</a>
-							</div>
-					  	</div></div><div class="spacer" style="height: 40px;"></div><a href="http://www.airtracker.com/investor-center/news-media/" target="_self" class="button color-2 small " style="border-radius: 2px;">See All News</a></div></div></div></div><div class="spacer" style="height: 70px;"></div>
-		</div> 
-	</div> 
-</div></div><div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch bg-stretch  " data-speed="1" style="background-image: url(./wp/wp-content/uploads/2016/09/scribbled.jpg); background-color: #aaaaaa; "><div class="col span_12 color-dark left">
-	<div class="vc_col-sm-12 wpb_column column_container col vertical-center padding-10 color-dark" style="opacity: 1; height: 699px;" data-animation="" data-delay="">
-		<div class="wpb_wrapper" style="margin-top: 0px;">
-			<div class="vc_row wpb_row vc_inner vc_row-fluid columns_no_padding vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1474538828358"><div class="wpb_wrapper"><h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-left transform-inherit " style="margin: 0 0 20px 0; color: #444444;">JOIN OUR MAILING LIST</h2>
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p>Keep up to date with the latest Hazer news and news from the industry.</p>
-
-		</div>
-	</div>
-
-	<div class="wpb_text_column wpb_content_element  minimalistic_form">
-		<div class="wpb_wrapper">
-			<p><strong></strong></p><div class="tnp tnp-subscription"><strong>
-<form method="post" action="http://www.airtracker.com/?na=s" onsubmit="return newsletter_check(this)">
-
-<div class="tnp-field tnp-field-firstname"><label>Full Name</label><input class="tnp-firstname" name="nn" required="" type="text"></div>
-<div class="tnp-field tnp-field-email"><label>Email</label><input class="tnp-email" name="ne" required="" type="email"></div>
-<div class="tnp-field tnp-field-button"><input class="tnp-submit" value="Subscribe" type="submit">
-</div>
-</form>
-</strong></div><strong>
-</strong><p></p>
-
-		</div>
-	</div>
-</div></div></div><div class="force_full_height wpb_column vc_column_container vc_col-sm-6 vc_hidden-xs vc_col-has-fill"><div class="vc_column-inner vc_custom_1475054167063"><div class="wpb_wrapper"></div></div></div></div>
-		</div> 
-	</div> 
-</div></div>
-
-		
-		
-			</div> <!-- end content -->
-
-	
-</div> <!-- end page-wrap -->
-	
-		
-		
-		<div id="copyright" class="clearfix">
-		<div class="container">
-			
-			<div class="sixteen columns">
-
-				<div class="copyright-text copyright-col1">
-											Copyright 2016 © AirTracker | <a href="http://www.airtracker.com/privacy">Privacy Policy</a> | <a href="http://www.airtracker.com/terms-and-conditions">Terms &amp; Conditions</a> | Site by <a href="//www.airtracker.com/">AirTracker</a>
-<br>
-The word mark AirTracker and the AirTracker logo are trade marks for AirTracker									</div>
-				
-				<div class="copyright-col2">
-											
-<div class="social-icons clearfix">
-	<ul>
-							<li><a href="https://www.facebook.com/airtracker" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="https://plus.google.com/+AirTracker" target="_blank" title="Google+"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="https://www.linkedin.com/company/air-tracker" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-																			<li><a href="https://twitter.com/airtracker" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-																	<li><a href="https://www.youtube.com/watch?v=WGZty4x441s" target="_blank" title="YouTube"><i class="fa fa-youtube-play"></i></a></li>
-							</ul>
-</div>									</div>
 
 			</div>
-			
+
+		</header>
+
+		<div id="mobile-header" class="mobile-header-v1">
+			<div class="container">
+				<div class="sixteen columns">
+					<div id="mobile-logo" class="logo">
+						<a href="http://www.airtracker.com/">
+							<img src="./files/logo_hazer_new.png" alt="AirTracker" class="logo_standard">
+						</a>
+					</div>
+					<a href="#" id="mobile-navigation-btn">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+			</div>
 		</div>
-	</div><!-- end copyright -->
-			
-	</div><!-- end wrapall / boxed -->
-	
-		
-			<div class="my_timeline_hover_12_123" id="">
+
+		<div id="mobile-navigation" style="display: none;">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="menu-main-menu-container">
+						<ul id="mobile-nav" class="menu">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-10">
+								<a href="http://www.airtracker.com/">Home</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80 has-ul">
+								<a href="http://www.airtracker.com/about/">About
+									<i class="fa fa-chevron-down"></i>
+								</a>
+								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1297">
+										<a href="http://www.airtracker.com/about/#company_overview">Company Overview</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1298">
+										<a href="http://www.airtracker.com/about/#facilities">Facilities</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299">
+										<a href="http://www.airtracker.com/about/#learn_about_hazer">Learn About AirTracker</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1300">
+										<a href="http://www.airtracker.com/about/#the_hazer_process">The AirTracker</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1301">
+										<a href="http://www.airtracker.com/about/#our_markets">Our Markets</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1302">
+										<a href="http://www.airtracker.com/about/#competitive_advantage">Competitive Advantage</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79 has-ul">
+								<a href="http://www.airtracker.com/investors/">Investors
+									<i class="fa fa-chevron-down"></i>
+								</a>
+								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1305">
+										<a href="http://www.airtracker.com/investors/#announcements_news_media">Announcements</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1306">
+										<a href="http://www.airtracker.com/investors/#announcements_news_media">News and Media</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1458">
+										<a href="http://www.airtracker.com/investors/#announcements_news_media">Research Reports</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1303">
+										<a href="http://www.airtracker.com/investors/#board_and_management">Board and Managment</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1304">
+										<a href="http://www.airtracker.com/investors/#corporate_governance">Corporate Governance</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1307">
+										<a href="http://www.airtracker.com/investors/#share_registry">Share Registry</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
+								<a href="http://www.airtracker.com/social-media/">Social Media</a>
+							</li>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81">
+								<a href="http://www.airtracker.com/category/blog/">Blog</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
+								<a href="http://www.airtracker.com/contact-us/">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<form action="http://www.airtracker.com" method="GET">
+						<input name="s" placeholder="Search.." autocomplete="off" type="text">
+					</form>
+
+				</div>
+			</div>
 		</div>
-		<div class="scroll-back-to-top-wrapper">
-	<span class="scroll-back-to-top-inner">
-					<i class="fa fa-2x fa-arrow-circle-up"></i>
-			</span>
-</div><link rel="stylesheet" id="mediaelement-css" href="./files/mediaelementplayer-legacy.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-mediaelement-css" href="./files/wp-mediaelement.css" type="text/css" media="all">
-<script type="text/javascript" src="./files/core.js"></script>
-<script type="text/javascript" src="./files/widget.js"></script>
-<script type="text/javascript" src="./files/mouse.js"></script>
-<script type="text/javascript" src="./files/draggable.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var wpcf7 = 
-{"apiSettings":{"root":"http:\/\/www.airtracker.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please
+
+
+
+
+
+		<div id="page-wrap">
+
+			<div id="content" class="page-section nopadding">
+
+				<div class="wpb_row vc_row-fluid full-width-section section  section-no-parallax  stretch   " data-speed="1" style="background-color: rgba(0,0,0,0.6); color: #ffffff; ">
+					<div class="video-fallback" style="background-image: url(./wp/wp-content/uploads/2016/09/Screen-Shot-2016-09-22-at-11.16.01.png)"></div>
+					<div class="video-wrap" style="width: 1327px; height: 770px; opacity: 1;">
+						<video preload="auto" autoplay="autoplay" loop="" muted="muted" style="width: 1425px; height: 810px;" width="1920" height="800">
+							<source src="./files/HazerBGLoopBlack.webm" type="video/webm">
+							<source src="./files/HazerBGLoopBlack.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="col span_12 color-custom text-align-center">
+						<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
+							<div class="wpb_wrapper">
+								<div class="spacer" style="height: 300px;"></div>
+								
+								<div class="spacer" style="height: 20px;"></div>
+								
+								<div class="spacer" style="height: 300px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch   " data-speed="1" style="background-color: #444444; ">
+					<div class="col span_12 color-dark left">
+						<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
+							<div class="wpb_wrapper">
+								<div class="spacer" style="height: 60px;"></div>
+								<div class="vc_row wpb_row vc_inner vc_row-fluid">
+									<div class="wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left"
+												 style="margin: 0 0 20px 0; color: #ffffff;">ABOUT AIRTRACKER</h2>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container vc_col-sm-8">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="wpb_text_column wpb_content_element  about-text">
+													<div class="wpb_wrapper">
+														<p>
+															<span style="color: #cccccc;">Air-tracker is a solar powered an environmental sensor array with build-in Sigfox interface. Air-tracker measure
+																following pollutant and environment characteristic: Gases: Carbon monoxide CO 1-1000 ppm Nitrogen dioxide
+																NO2 0.05 -10ppm Hydrogen H2 1- 1000 ppm Ammonia NH3 1-500ppm Ethanol C2H5 10 -500 ppm Methane CH4 > 1000pm
+																Propane C3H8 > 1000pm Iso-Butane C4H10 > 1000pm Ozone O3 0 -5ppm Sulfur Dioxide SO2 0 -20ppm Carbon Dioxide
+																CO2 0 -5000ppm Particles: P2.5 and P10 Dust range from range (0 μg/m3 to 1,000 μg/m3) Accuracy of ±15 μg/m3
+																in the range (0 μg/m3 to 100 μg/m3) ±15 % in the range (100 μg/m3 to 1000 μg/m3) Temperature sensor Accuracy
+																of 0.2% Humidity sensor Accuracy of 2% Barometric Pressure sensor Range 300 – 1110 hPa, Accuracy ±1hPa Sound
+																Level to Monitor Noise Pollution Range of the sensor: 50 dBA to 100 dBA Accuracy of ±0.5 dBA (1KHz) Air-tracker
+																equipped with Bluetooth Low Energy interface used for installation activation, firmware update and location
+																reporting/positioning. Optionally GPS module could be installed. Air-tracker is equipped with 4 x 0.5W solar
+																panels and 2 x 18650 Lithium batteries. Battery reserve eliminates needs for external power source and Airtracker
+																could operate 28 days without sun. </span>
+														</p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spacer" style="height: 60px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wpb_row vc_row-fluid standard-section section  section-no-parallax hazer-about-section stretch   " data-speed="1"
+				 style="">
+					<div class="col span_12 color-dark left">
+						<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
+							<div class="wpb_wrapper">
+								<div class="spacer" style="height: 60px;"></div>
+								<div class="vc_row wpb_row vc_inner vc_row-fluid">
+									<div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left"
+												 style="margin: 0 0 20px 0; color: #444444;">OUR MISSION</h2>
+												<div class="wpb_text_column wpb_content_element ">
+													<div class="wpb_wrapper">
+														<p>
+															As cities globally struggle to manage high levels of air pollution, numerous technologies and policies are being deployed
+															to improve air quality. These solutions include congestion charging and low emissions zones, electrification
+															of public transport, electric and automated vehicles, shared mobility programs, smart parking systems, expanded
+															bicycle infrastructure, and air purification technologies. Although these solutions can help reduce pollution
+															levels, if city officials are to fully understand and improve air quality conditions, pollutants must be able
+															to be accurately measured, monitored, and managed. Currently, most cities measure air pollution using a collection
+															of large environmental monitoring stations. These stations are accurate in measuring air quality data, but
+															their high cost often limits the quantity of deployments, resulting in gaps in coverage. They are also static
+															and may not capture the local nature of harmful pollution within city environments
+														</p>
+														</p>
+														<p>HAirTracker have identified an unique opportunity to launch our air quality monitoring device - the AirTracker
+															- nd develop a cloud based environmental data collection service on a global scale through our partnership
+															with Sigfox and Thinxtra.</p>
+
+													</div>
+												</div>
+												<a href="http://www.airtracker.com/about/" target="_self" class="button custom small mobile-read-more" style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left"
+												 style="margin: 0 0 20px 0; color: #444444;">OUR TECHNOLOGY</h2>
+												<div class="wpb_text_column wpb_content_element ">
+													<div class="wpb_wrapper">
+														<p>The AirTracker takes two ubiquitous and cheap feedstocks (natural gas and iron ore), and uses these to generate
+															two high value, high demand products (hydrogen &amp; synthetic graphite) with global market applications.
+															The core of our technology is the use of iron-ore as a low-cost catalyst for the gas decomposition reaction,
+															which gives us a strong commercial advantage for accessing both hydrogen and high-quality graphite markets.</p>
+
+													</div>
+												</div>
+												<a href="http://www.airtracker.com/about/#the_hazer_process" target="_self" class="button custom small mobile-read-more"
+												 style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="hazer-read-more-text wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left"
+												 style="margin: 0 0 20px 0; color: #444444;">OUR COMPETITIVE ADVANTAGE</h2>
+												<div class="wpb_text_column wpb_content_element ">
+													<div class="wpb_wrapper">
+														<p>The key difference in the AirTracker over alternative hydrogen production processes is that the carbon content
+															of the natural gas feedstock is captured in the form of solid graphite, rather than being converted to CO
+															<sub>2</sub>, making the process both cleaner and more cost effective. This allows Hazer to produce ‘clean’ hydrogen
+															(with significant lower carbon dioxide emissions), enabling our hydrogen to be used in a range of developing
+															clean energy applications, as well as in large existing chemical processing industries.</p>
+
+													</div>
+												</div>
+												<a href="http://www.airtracker.com/about/#competitive_advantage" target="_self" class="button custom small mobile-read-more"
+												 style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vc_row wpb_row vc_inner vc_row-fluid">
+									<div class="tx_al_right wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="spacer" style="height: 20px;"></div>
+												<a href="http://www.airtracker.com/about/" target="_self" class="button custom small mission-read-more"
+												 style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="tx_al_right wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="spacer" style="height: 20px;"></div>
+												<a href="http://www.airtracker.com/about/#the_hazer_process" target="_self" class="button custom small technology-read-more"
+												 style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="tx_al_right wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="spacer" style="height: 20px;"></div>
+												<a href="http://www.airtracker.com/about/#competitive_advantage" target="_self" class="button custom small competitive-read-more"
+												 style="background-color: #48abde; border-color: #48abde;border-radius: 2px;">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wpb_row vc_row-fluid standard-section section  section-parallax tx_al_center stretch bg-stretch  " data-speed="1"
+				 style="background-image: url(&quot;./wp/wp-content/uploads/2016/09/Screen-Shot-2016-09-22-at-11.16.01.png&quot;); color: rgb(255, 255, 255); background-position: 50% 632px; opacity: 1;">
+					<div class="col span_12 color-custom text-align-center">
+						<div class="vc_col-sm-12 learn-about-hazer wpb_column column_container col no-padding color-dark" style="" data-animation=""
+						 data-delay="">
+							<div class="wpb_wrapper">
+								<div class="spacer" style="height: 70px;"></div>
+								<div class="single_image wpb_content_element align-center    " data-animation="none" data-delay="0">
+									<a href="https://www.youtube.com/watch?v=WGZty4x441s" class="prettyPhoto" rel="prettyPhoto[image]">
+										<img class="" src="./files/playbutton-50x50.png" alt="playbutton" title="playbutton" width="50" height="50">
+									</a>
+								</div>
+								<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading_center"
+								 style="margin: 0 0 20px 0; color: #ffffff;">
+									LEARN ABOUT AIRTRACKER</h2>
+								<div class="spacer" style="height: 70px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch   " data-speed="1" style="">
+					<div class="col span_12 color-dark left">
+						<div class="vc_col-sm-12 wpb_column column_container col no-padding color-dark" style="" data-animation="" data-delay="">
+							<div class="wpb_wrapper">
+								<div class="spacer" style="height: 70px;"></div>
+								<div class="vc_row wpb_row vc_inner vc_row-fluid">
+									<div class="wpb_column vc_column_container vc_col-sm-4">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-center transform-inherit underlined_heading tx_al_left"
+												 style="margin: 0 0 20px 0; color: #444444;">LATEST NEWS</h2>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container vc_col-sm-8">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="latest-blog  clearfix">
+													<div class="latest-blog-list  clearfix wpb_content_element">
+														<div class="blog-list-item-date">01
+															<span>Feb 18</span>
+														</div>
+														<div class="blog-list-item-description">
+															<h3>
+																<a href="http://www.proactiveinvestors.com.au/companies/news/190942/hazer-group-enters-2018-cashed-up-more-inflows-expected-190942.html"
+																 title="Air Tracker enters 2018 cashed up, more inflows expected">Air Tracker enters 2018 cashed up, more inflows expected</a>
+															</h3>
+															<b>
+																<i class="fa fa-cloud" aria-hidden="true"></i>
+																Source: </b>Proactive Investors |
+															<i class="fa fa-link" aria-hidden="true"></i>
+															<a target="_blank" href="http://www.proactiveinvestors.com.au/companies/news/190942/hazer-group-enters-2018-cashed-up-more-inflows-expected-190942.html">View Article</a>
+														</div>
+													</div>
+													<div class="latest-blog-list  clearfix wpb_content_element">
+														<div class="blog-list-item-date">18
+															<span>Jan 18</span>
+														</div>
+														<div class="blog-list-item-description">
+															<h3>
+																<a href="https://theconstantinvestor.com/the-hazer-process/" title="The AirTracker">The AirTracker</a>
+															</h3>
+															<b>
+																<i class="fa fa-cloud" aria-hidden="true"></i>
+																Source: </b>The Constant Investor |
+															<i class="fa fa-link" aria-hidden="true"></i>
+															<a target="_blank" href="https://theconstantinvestor.com/the-hazer-process/">View Article</a>
+														</div>
+													</div>
+												</div>
+												<div class="spacer" style="height: 40px;"></div>
+												<a href="http://www.airtracker.com/investor-center/news-media/" target="_self" class="button color-2 small "
+												 style="border-radius: 2px;">See All News</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spacer" style="height: 70px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wpb_row vc_row-fluid standard-section section  section-no-parallax  stretch bg-stretch  " data-speed="1"
+				 style="background-image: url(./wp/wp-content/uploads/2016/09/scribbled.jpg); background-color: #aaaaaa; ">
+					<div class="col span_12 color-dark left">
+						<div class="vc_col-sm-12 wpb_column column_container col vertical-center padding-10 color-dark" style="opacity: 1; height: 699px;"
+						 data-animation="" data-delay="">
+							<div class="wpb_wrapper" style="margin-top: 0px;">
+								<div class="vc_row wpb_row vc_inner vc_row-fluid columns_no_padding vc_row-o-equal-height vc_row-flex">
+									<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+										<div class="vc_column-inner vc_custom_1474538828358">
+											<div class="wpb_wrapper">
+												<h2 class="headline font-inherit fontsize-l fontweight-600 lh-inherit align-left transform-inherit " style="margin: 0 0 20px 0; color: #444444;">JOIN OUR MAILING LIST</h2>
+												<div class="wpb_text_column wpb_content_element ">
+													<div class="wpb_wrapper">
+														<p>Keep up to date with the latest Hazer news and news from the industry.</p>
+
+													</div>
+												</div>
+
+												<div class="wpb_text_column wpb_content_element  minimalistic_form">
+													<div class="wpb_wrapper">
+														<p>
+															<strong></strong>
+														</p>
+														<div class="tnp tnp-subscription">
+															<strong>
+																<form method="post" action="http://www.airtracker.com/?na=s" onsubmit="return newsletter_check(this)">
+
+																	<div class="tnp-field tnp-field-firstname">
+																		<label>Full Name</label>
+																		<input class="tnp-firstname" name="nn" required="" type="text">
+																	</div>
+																	<div class="tnp-field tnp-field-email">
+																		<label>Email</label>
+																		<input class="tnp-email" name="ne" required="" type="email">
+																	</div>
+																	<div class="tnp-field tnp-field-button">
+																		<input class="tnp-submit" value="Subscribe" type="submit">
+																	</div>
+																</form>
+															</strong>
+														</div>
+														<strong>
+														</strong>
+														<p></p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="force_full_height wpb_column vc_column_container vc_col-sm-6 vc_hidden-xs vc_col-has-fill">
+										<div class="vc_column-inner vc_custom_1475054167063">
+											<div class="wpb_wrapper"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+			<!-- end content -->
+
+
+		</div>
+		<!-- end page-wrap -->
+
+
+
+		<div id="copyright" class="clearfix">
+			<div class="container">
+
+				<div class="sixteen columns">
+
+					<div class="copyright-text copyright-col1">
+						Copyright 2016 © AirTracker |
+						<a href="http://www.airtracker.com/privacy">Privacy Policy</a> |
+						<a href="http://www.airtracker.com/terms-and-conditions">Terms &amp; Conditions</a> | Site by
+						<a href="//www.airtracker.com/">AirTracker</a>
+						<br> The word mark AirTracker and the AirTracker logo are trade marks for AirTracker </div>
+
+					<div class="copyright-col2">
+
+						<div class="social-icons clearfix">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/airtracker" target="_blank" title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/+AirTracker" target="_blank" title="Google+">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/air-tracker" target="_blank" title="LinkedIn">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/airtracker" target="_blank" title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=WGZty4x441s" target="_blank" title="YouTube">
+										<i class="fa fa-youtube-play"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- end copyright -->
+
+	</div>
+	<!-- end wrapall / boxed -->
+
+
+	<div class="my_timeline_hover_12_123" id="">
+	</div>
+	<div class="scroll-back-to-top-wrapper">
+		<span class="scroll-back-to-top-inner">
+			<i class="fa fa-2x fa-arrow-circle-up"></i>
+		</span>
+	</div>
+	<link rel="stylesheet" id="mediaelement-css" href="./files/mediaelementplayer-legacy.css" type="text/css" media="all">
+	<link rel="stylesheet" id="wp-mediaelement-css" href="./files/wp-mediaelement.css" type="text/css" media="all">
+	<script type="text/javascript" src="./files/core.js"></script>
+	<script type="text/javascript" src="./files/widget.js"></script>
+	<script type="text/javascript" src="./files/mouse.js"></script>
+	<script type="text/javascript" src="./files/draggable.js"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var wpcf7 =
+			{				
+"apiSettings": { "root": "http:\/\/www.airtracker.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "recaptcha": {					
+"messages": {
+						"empty": "Please
  verify that you are not a robot."}},"cached":"1"};
 /* ]]> */
-</script>
-<script type="text/javascript" src="./files/scripts.js"></script>
-<script type="text/javascript">
+	</script>
+	<script type="text/javascript" src="./files/scripts.js"></script>
+	<script type="text/javascript">
 /* <![CDATA[ */
-var scrollBackToTop = {"scrollDuration":"500","fadeDuration":"0.5"};
+var scrollBackToTop = { "scrollDuration": "500", "fadeDuration": "0.5" };
 /* ]]> */
-</script>
-<script type="text/javascript" src="./files/scroll-back-to-top.js"></script>
-<script type="text/javascript" src="./files/customjs.js"></script>
-<script type="text/javascript" src="./files/jquery_009.js"></script>
-<script type="text/javascript" src="./files/waypoints.js"></script>
-<script type="text/javascript" src="./files/waypoints-sticky.js"></script>
-<script type="text/javascript" src="./files/prettyPhoto.js"></script>
-<script type="text/javascript" src="./files/isotope.js"></script>
-<script type="text/javascript" src="./files/functions.js"></script>
-<script type="text/javascript" src="./files/flexslider.js"></script>
-<script type="text/javascript" src="./files/smoothscroll.js"></script>
-<script type="text/javascript" src="./files/comment-reply.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var newsletter = {"messages":{"email_error":"The email is not 
+	</script>
+	<script type="text/javascript" src="./files/scroll-back-to-top.js"></script>
+	<script type="text/javascript" src="./files/customjs.js"></script>
+	<script type="text/javascript" src="./files/jquery_009.js"></script>
+	<script type="text/javascript" src="./files/waypoints.js"></script>
+	<script type="text/javascript" src="./files/waypoints-sticky.js"></script>
+	<script type="text/javascript" src="./files/prettyPhoto.js"></script>
+	<script type="text/javascript" src="./files/isotope.js"></script>
+	<script type="text/javascript" src="./files/functions.js"></script>
+	<script type="text/javascript" src="./files/flexslider.js"></script>
+	<script type="text/javascript" src="./files/smoothscroll.js"></script>
+	<script type="text/javascript" src="./files/comment-reply.js"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var newsletter = {
+			"messages": {
+				"email_error": "The email is not 
 correct","name_error":"The name is not correct","surname_error":"The 
 last name is not correct","profile_error":"","privacy_error":"You must 
 accept the privacy statement"},"profile_max":"20"};
 /* ]]> */
-</script>
-<script type="text/javascript" src="./files/validate.js"></script>
-<script type="text/javascript" src="./files/wp-embed.js"></script>
-<script type="text/javascript" src="./files/js_composer_front.js"></script>
-<script type="text/javascript">
-var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are
+	</script>
+	<script type="text/javascript" src="./files/validate.js"></script>
+	<script type="text/javascript" src="./files/wp-embed.js"></script>
+	<script type="text/javascript" src="./files/js_composer_front.js"></script>
+	<script type="text/javascript">
+var mejsL10n = {						
+"language": "en", "strings": {							
+"mejs.install-flash": "You are
  using a browser that does not have Flash player enabled or installed. 
 Please turn on your Flash player plugin or download the latest version 
-from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn
- off Fullscreen","mejs.fullscreen-on":"Go 
-Fullscreen","mejs.download-video":"Download 
-Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump 
-forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle 
-Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time
- Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance 
-one second, Up\/Down arrows to advance ten 
-seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 
-seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute
- Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or
- decrease 
-volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume
- Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio 
-Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 
-second","Skip in %1 seconds"],"mejs.source-chooser":"Source 
-Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed 
-Rate","mejs.live-broadcast":"Live 
-Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese
- (Simplified)","mejs.chinese-traditional":"Chinese 
-(Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian
- 
-Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
-</script>
-<script type="text/javascript" src="./files/mediaelement-and-player.js"></script>
-<script type="text/javascript" src="./files/mediaelement-migrate.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var _wpmejsSettings = {"pluginPath":"\/wp\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+from https: \/\/ get.adobe.com\/ flashplayer\/ ","mejs.fullscreen - off":"Turn
+ off Fullscreen","mejs.fullscreen - on":"Go 
+Fullscreen","mejs.download - video":"Download 
+Video","mejs.fullscreen":"Fullscreen","mejs.time - jump - forward":["Jump 
+forward 1 second","Jump forward % 1 seconds"],"mejs.loop":"Toggle 
+Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time - slider":"Time
+ Slider","mejs.time - help - text":"Use Left\/ Right Arrow keys to advance 
+one second, Up\/ Down arrows to advance ten 
+seconds.","mejs.time - skip - back":["Skip back 1 second","Skip back % 1 
+seconds"],"mejs.captions - subtitles":"Captions\/ Subtitles","mejs.captions - chapters":"Chapters","mejs.none":"None","mejs.mute - toggle":"Mute
+		Toggle","mejs.volume - help - text":"Use Up\/Down Arrow keys to increase or
+		decrease
+		volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume - slider":"Volume
+		Slider","mejs.video - player":"Video Player","mejs.audio - player":"Audio
+		Player","mejs.ad - skip":"Skip ad","mejs.ad - skip - info":["Skip in 1
+		second","Skip in % 1 seconds"],"mejs.source - chooser":"Source
+		Chooser","mejs.stop":"Stop","mejs.speed - rate":"Speed
+		Rate","mejs.live - broadcast":"Live
+		Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese - simplified":"Chinese
+			(Simplified)","mejs.chinese - traditional":"Chinese
+				(Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian - creole":"Haitian
+
+		Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+	</script>
+	<script type="text/javascript" src="./files/mediaelement-and-player.js"></script>
+	<script type="text/javascript" src="./files/mediaelement-migrate.js"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var _wpmejsSettings = { "pluginPath": "\/wp\/wp-includes\/js\/mediaelement\/", "classPrefix": "mejs-", "stretching": "responsive" };
 /* ]]> */
-</script>
-<script type="text/javascript" src="./files/wp-mediaelement.js"></script>
+	</script>
+	<script type="text/javascript" src="./files/wp-mediaelement.js"></script>
 
 	<script type="text/javascript">
-	jQuery(document).ready(function($){
-		"use strict";
-	    
-		/* PrettyPhoto Options */
-		var lightboxArgs = {			
-						animation_speed: 'fast',
-						overlay_gallery: true,
-			autoplay_slideshow: false,
-						slideshow: 5000,
-									opacity: 0.7,
-						show_title: true,
-			social_tools: "",			deeplinking: false,
-			allow_resize: true,
-			allow_expand: false,
-			counter_separator_label: '/',
-			default_width: 1160,
-			default_height: 653
-		};
-		
-				/* Automatic Lightbox */
-		$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], 
-a[href$=png], a[href$=gif], 
-a[href$=bmp]:has(img)').prettyPhoto(lightboxArgs);
-					
+		jQuery(document).ready(function ($) {
+			"use strict";
+
+			/* PrettyPhoto Options */
+			var lightboxArgs = {
+				animation_speed: 'fast',
+				overlay_gallery: true,
+				autoplay_slideshow: false,
+				slideshow: 5000,
+				opacity: 0.7,
+				show_title: true,
+				social_tools: "", deeplinking: false,
+				allow_resize: true,
+				allow_expand: false,
+				counter_separator_label: '/',
+				default_width: 1160,
+				default_height: 653
+			};
+
+			/* Automatic Lightbox */
+			$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], 
+a[href$ = png], a[href$ = gif],
+				a[href$ = bmp]: has(img)').prettyPhoto(lightboxArgs);
+
 		/* General Lightbox */
 		$('a[class^="prettyPhoto"], a[rel^="prettyPhoto"], 
-.prettyPhoto').prettyPhoto(lightboxArgs);
+					.prettyPhoto').prettyPhoto(lightboxArgs);
 
 		/* WooCommerce Lightbox */
 		$("a[data-rel^='prettyPhoto']").prettyPhoto({
-			hook: 'data-rel',
-			social_tools: false,
-			deeplinking: false,
-			overlay_gallery: true,
-			opacity: 0.7,
-			allow_expand: false, /* Allow the user to expand a resized image. 
+						hook: 'data-rel',
+						social_tools: false,
+						deeplinking: false,
+						overlay_gallery: true,
+						opacity: 0.7,
+						allow_expand: false, /* Allow the user to expand a resized image. 
 true/false */
-			show_title: false
-		});
+						show_title: false
+					});
 
-		
-	    
-	    	    $('.widget select, select.orderby, .variations_form select, 
-.wpcf7-select, .woocommerce select').not('#rating, 
-#calc_shipping_country, #billing_state').simpleselect();
-	   	
-	    
-	    	
+
+
+			$('.widget select, select.orderby, .variations_form select, 
+				.wpcf7 - select, .woocommerce select').not('#rating,
+				#calc_shipping_country, #billing_state').simpleselect();
+
+
+
 	    /* Fill rest of page */
-	    			    			$('body').css({'background-color' : '#1b1b1b' });
-	    			    
-	});
+	    			    			$('body').css({ 'background-color': '#1b1b1b' });
+
+		});
 	</script>
-	
 
 
 
-</body></html>
+
+</body>
+
+</html>
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
