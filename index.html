@@ -1663,18 +1663,21 @@
 														</p>
 														<div class="tnp tnp-subscription">
 															<strong>
-																<form method="post" action="http://www.airtracker.com/?na=s" onsubmit="return newsletter_check(this)">
+																<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+																<form method="get" action="https://function-airtracker-sigfox-callback.azurewebsites.net/api/registration" 
+																	onsubmit="return newsletter_check(this)" target="hiddenFrame">
 
+																	<input name="code" type="hidden" value="ZnREFITt5/wPPOUouYKyH3lTlGUvV6XkKJ/KtXO92La1RrxWbTOlog==">
 																	<div class="tnp-field tnp-field-firstname">
 																		<label>Full Name</label>
-																		<input class="tnp-firstname" name="nn" required="" type="text">
+																		<input class="tnp-firstname" name="name" required="" type="text">
 																	</div>
 																	<div class="tnp-field tnp-field-email">
 																		<label>Email</label>
-																		<input class="tnp-email" name="ne" required="" type="email">
+																		<input class="tnp-email" name="email" required="" type="email">
 																	</div>
 																	<div class="tnp-field tnp-field-button">
-																		<input class="tnp-submit" value="Subscribe" type="button">
+																		<input class="tnp-submit" value="Subscribe" type="submit">
 																	</div>
 																</form>
 															</strong>
